@@ -1,10 +1,10 @@
 # alf.mx
 
-The development of my future website.
+The development of my website, available on [https://alf.mx](https://alf.mx).
 
 Feel free to dive in, learn from it, and copy code (MIT licensed). 
 
-The content itself is not open source and remains protected. To give you the opportunity to install a working project, I made it all available on GitHub. Please, please, please with sugar on top, don't misuse.
+The content itself is not open source and remains protected. To give you the opportunity to install a working project, I made it all available on GitHub. Please don't misuse or redistribute the content. The code is open source, the creative work is not.
 
 If you want, install the project locally and explore how it works.
 
