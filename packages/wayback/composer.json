@@ -1,0 +1,85 @@
+{
+    "name": "moox/wayback",
+    "description": "A Wayback Machine / Archive.org Downloader made with Laravel.",
+    "keywords": [
+        "Moox",
+        "Laravel",
+        "Filament",
+        "Moox package",
+        "Laravel package",
+        "Wayback Machine",
+        "Archive.org",
+        "Downloader"
+    ],
+    "homepage": "https://moox.org/docs/wayback",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Moox Developer",
+            "email": "dev@moox.org",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "moox/core": "dev-main",
+        "moox/media": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "Moox\\Wayback\\": "src",
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Moox\\Wayback\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Moox\\Wayback\\WaybackServiceProvider"
+            ]
+        },
+        "moox": {
+            "name": "Moox Wayback",
+            "stability": "stable",
+            "type": "moox-plugin",
+            "install": {
+                "auto_migrate": "database/migrations",
+                "seed": "database/seeders/WaybackSeeder.php",
+                "auto_publish": "moox-wayback-config",
+                "auto_entities": {
+                    "Wayback": true
+                },
+                "auto_class": {
+                    "Wayback": "Moox\\Wayback\\Wayback"
+                },
+                "auto_run": {
+                    "Run this": "php artisan run:this",
+                    "Build the frontend": "npm run build",
+                    "Clear the cache": "php artisan cache:clear"
+                },
+                "auto_runhere": {
+                    "Build the frontend": "npm run build"
+                }
+            },
+            "update": {
+                "migrate": "database/migrations",
+                "merge": "moox-wayback-config"
+            },
+            "uninstall": {
+                "migrate": "database/migrations",
+                "remove": "moox-wayback-config"
+            }
+        }
+    },
+    "prefer-stable": true,
+    "require-dev": {
+        "moox/devtools": "dev-main"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
