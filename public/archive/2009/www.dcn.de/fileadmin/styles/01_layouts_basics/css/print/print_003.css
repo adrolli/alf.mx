@@ -1,0 +1,88 @@
+@import url(/archive/2009/www.dcn.de/typo3conf/ext/db_yamltv/template/yaml/core/print_base.css);
+/*import print base styles | Basisformatierung fÃ¼r Drucklayout einbinden
+#col1 - 0
+** #col2 - 0
+** #col3 - x
+*/
+#col1
+{
+	/*[ph]0*/
+}
+@media print
+{
+	#col1
+	{
+		/*[id]0*/display: none;
+	}
+}
+#col2
+{
+	/*[ph]1*/
+}
+@media print
+{
+	#col2
+	{
+		/*[id]1*/display: none;
+	}
+}
+#col3, #col3_content
+{
+	/*[ph]2*/
+	/*[ph]3*/
+	/*[ph]4*/
+	/*[ph]5*/
+}
+@media print
+{
+	#col3, #col3_content
+	{
+		/*[id]2*/width: 100%;
+		/*[id]3*/margin: 0;
+		/*[id]4*/padding: 0;
+		/*[id]5*/border: 0;
+	}
+}
+#header
+{
+	/*[ph]6*/
+}
+@media print
+{
+	#header
+	{
+		/*[id]6*/display: none;
+	}
+}
+#teaser
+{
+	/*[ph]7*/
+}
+@media print
+{
+	#teaser
+	{
+		/*[id]7*/display: none;
+	}
+}
+
+/*
+     FILE ARCHIVED ON 19:33:46 Dec 23, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:20:48 Jun 12, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.369
+  exclusion.robots: 0.04
+  exclusion.robots.policy: 0.033
+  esindex: 0.006
+  cdx.remote: 19.775
+  LoadShardBlock: 213.85 (3)
+  PetaboxLoader3.datanode: 124.808 (4)
+  PetaboxLoader3.resolve: 179.611 (3)
+  load_resource: 116.918
+*/

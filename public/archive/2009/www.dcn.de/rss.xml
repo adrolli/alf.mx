@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+	<channel>
+		
+		<title>DCN Newsfeed</title>
+		<link>http://www.dcn.de/</link>
+		<description>Immer aktuell informiert.</description>
+		<language>de</language>
+		<image>
+			<title>DCN Newsfeed</title>
+			<url>http://www.dcn.de/fileadmin/styles/dcnimg/rss.gif</url>
+			<link>http://www.dcn.de/</link>
+			<width>116</width>
+			<height>43</height>
+			<description>Immer aktuell informiert.</description>
+		</image>
+		<generator>TYPO3 - get.content.right</generator>
+		<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+		
+		
+		
+		<lastBuildDate>Fri, 06 Nov 2009 12:19:00 +0100</lastBuildDate>
+		
+		
+		<item>
+			<title>Klangkunst</title>
+			<link>http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/klangkunst.html</link>
+			<description>Die Projektwebseite Klangkunst des Deutschen Musikrats geht mit TYPO3 Online.</description>
+			<content:encoded><![CDATA[Die Projektwebseite Klangkunst des Deutschen Musikrats geht mit TYPO3 Online. Gestaltet wurde die Webseite von der renommierten Kölner Agentur thinc2 kommunikation. Die technische Umsetzung erfolgte mit TYPO3 durch die DCN GmbH.
+<link http://www.musikrat.de/klangkunst>http://www.musikrat.de/klangkunst</link> ]]></content:encoded>
+			<category>Blitznews</category>
+			<category>TYPO3</category>
+			
+			
+			<pubDate>Fri, 06 Nov 2009 12:19:00 +0100</pubDate>
+			
+		</item>
+		
+		<item>
+			<title>eswe Relaunch</title>
+			<link>http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/eswe-relaunch.html</link>
+			<description>eswe versandpack startet mit Magento Commerce und TYPO3 ins Online-Business.</description>
+			<content:encoded><![CDATA[Die eswe versandpack GmbH geht mit TYPO3, Magento Commerce und der TypoGento Middleware online und startet bereits am ersten Tag erfolgreich ins Online-Business. 
+Für die eswe-Lösung wurden die drei Open Source Systeme wesentlich angepasst, so entsteht eine B2B-Shoplösung, die in Sachen Usability neue Maßstäbe setzen wird.
+Bereits am Tag des offiziellen Relaunchs konnte Magento Commerce erste Bestellungen übermitteln und einen Neukunden über das Onlinegeschäft gewinnen.
+Die Besonderheiten der eswe-Shoplösung ist die tabellarische Ausgabe der Staffelpreise mit Mehrfach-Bestellfunktion, Produktvideos und der einfache Bestellablauf.]]></content:encoded>
+			<category>Blitznews</category>
+			<category>Magento</category>
+			<category>TYPO3</category>
+			
+			
+			<pubDate>Thu, 05 Nov 2009 08:33:00 +0100</pubDate>
+			
+		</item>
+		
+		<item>
+			<title>Stromausfall</title>
+			<link>http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/stromausfall.html</link>
+			<description>Aufgrund geplanter Arbeiten am Stromnetz sind wir am Donnerstag, den 08.10.2009 von 12:00 bis 14:00...</description>
+			<content:encoded><![CDATA[Betroffen vom Stromausfall sind voraussichtlich nicht nur unsere Telefone sondern leider auch das Mobilfunknetz in der Region. Bei dringenden Problemen schreiben Sie uns bitte eine E-Mail, so können wir direkt um 14:00 reagieren und uns zurückmelden.
+Unsere bzw. Ihre Web- und Mailserver sind von dem Stromausfall selbstverständlich nicht betroffen.]]></content:encoded>
+			<category>Blitznews</category>
+			
+			
+			<pubDate>Thu, 08 Oct 2009 11:30:00 +0200</pubDate>
+			
+		</item>
+		
+		<item>
+			<title>Lohn-Software.de</title>
+			<link>http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/lohn-softwarede.html</link>
+			<description>Mit Lohn-Software.de geht innerhalb weniger Monate die dritte GDI-Webseite mit TYPO3 online.</description>
+			<content:encoded><![CDATA[Mit <link http://www.lohn-software.de/ - external-link-new-window>Lohn-Software.de</link> geht innerhalb weniger Monate die dritte GDI-Webseite mit TYPO3 online. Die Microsite wird vor allem für Google AdWords und Suchmaschinenplatzierung verwendet.]]></content:encoded>
+			<category>Blitznews</category>
+			<category>TYPO3</category>
+			
+			
+			<pubDate>Fri, 02 Oct 2009 01:20:00 +0200</pubDate>
+			
+		</item>
+		
+		<item>
+			<title>Serverupdate</title>
+			<link>http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/serverupdate.html</link>
+			<description>Das Update des DCN Media Servers am 11.09.2009 um 22:35 erfolgreich abgeschlossen.</description>
+			<content:encoded><![CDATA[Sehr geehrte Kunden,
+das Serverupdate wurde am 11.09.2009 um 22:35 erfolgreich abgeschlossen, jedoch war der Ausfall Ihrer Webseiten für&nbsp;knapp 2 Stunden&nbsp;nicht zu vermeiden. Wir bitten dies zu entschuldigen und hoffen die Freude über kostenfreie Mehr-Leistung überwiegt.
+Die neue Serverplattform des DCN Media Servers ist mit folgenden Features ausgestattet:
+<ul><li>Intel Core7 Prozessoren für bis zu 370% mehr Leistung</li><li>32&nbsp;GB Arbeitsspeicher pro Server</li><li>Ausfallsicheres RAID-System und Backup-RAID</li><li>Automatisierte Projektbackups, Einzelsicherungen&nbsp;und nächtliche Backups</li><li>Direkte Gigabit-Anbindung an das L2-Backbone (100 Mbit Garantie)</li><li>Noch bessere Unterstützung für PHP-Applikationen wie Symfony, TYPO3 und Magento Commerce</li></ul>
+Die Wartungsarbeiten wurden aufgrund der derzeitigen Auslastung notwendig. Im Detail:
+<ul><li>Es werden derzeit ca. 300 Webpräsenzen von uns gehostet, davon 70 mit TYPO3 und 10 Shopsysteme mit Magento Commerce, XT Commerce, OS Commerce, TT Products und TYPO3 Commerce sowie Plattformen für PHP-Entwicklung wie z. B. Symfony, Flow3 und Zend</li><li>Die durchschnittliche Serverauslastung liegt bei 57%</li><li>Die maximale Serverauslastung lag bei 86%</li></ul>
+Durch die neue Serverhardware werden wir Platz und Performance für einige hundert TYPO3-Installationen und eine Vielzahl an Magento Commerce Shops&nbsp;schaffen, die durchschnittliche Serverauslastung wird anfänglich bei unter 10% liegen, was uns ausreichend Spielraum für die Zukunft bietet.]]></content:encoded>
+			<category>Blitznews</category>
+			<category>Magento</category>
+			<category>TYPO3</category>
+			<category>Web-Projekte</category>
+			
+			
+			<pubDate>Thu, 10 Sep 2009 14:22:00 +0200</pubDate>
+			
+		</item>
+		
+		<item>
+			<title>Lesen bildet</title>
+			<link>http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/lesen-bildet.html</link>
+			<description>DCN ist Sponsor der Autorenlesung von Gudrun Mebs in der Grundschule Ittersbach.</description>
+			<content:encoded><![CDATA[Wir arbeiten für die Zukunft von Unternehmen und wir unterstützen die Zukunft von Kindern. Deshalb leistet DCN einen Beitrag zur Autorenlesung von Gudrun Mebs in der Grundschule Ittersbach.]]></content:encoded>
+			<category>Blitznews</category>
+			
+			
+			<pubDate>Thu, 13 Aug 2009 23:59:00 +0200</pubDate>
+			
+		</item>
+		
+		<item>
+			<title>50 x TYPO3</title>
+			<link>http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/50-x-typo3.html</link>
+			<description>Mit LukeRacing.de geht heute unser fünfzigstes TYPO3-Projekt online.</description>
+			<content:encoded><![CDATA[Seit nunmehr 5 Jahren arbeiten wir mit dem TYPO3 Content Management System. Zuerst war es ein Projekt, dann kam ein zweites und seit über einem Jahr verwenden wir für jedes Internetprojekt TYPO3. Mit <link http://www.lukeracing.de/ - external-link-new-window>LukeRacing.de</link>&nbsp;geht jetzt das fünzigste TYPO3-Projekt online und 8 weitere sind gerade in Arbeit.
+]]></content:encoded>
+			<category>Blitznews</category>
+			<category>TYPO3</category>
+			
+			
+			<pubDate>Fri, 07 Aug 2009 08:25:00 +0200</pubDate>
+			
+		</item>
+		
+		<item>
+			<title>Sicherheitsupdate</title>
+			<link>http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/sicherheitsupdate.html</link>
+			<description>Microsoft veröffentlicht wichtiges Sicherheitsupdate für kritische Lücke in Internet Explorer 6, 7...</description>
+			<content:encoded><![CDATA[Microsoft veröffentlicht gestern außerplanmäßig ein wichtiges Sicherheitsupdate für kritische Lücke in Internet Explorer Version 6, 7 und 8. Weitere Informationen sowie den Download finden Sie unter&nbsp;<link http://co1piltwb.partners.extranet.microsoft.com/mcoeredir/mcoeredirect.aspx?linkId=12279937&s1=4b1b9720-a895-09df-8624-7c000e809dcc>http://technet.microsoft.com/de-de/security/default.aspx</link>
+Sie erhalten das Update über Windows-Update bzw. Ihren WSUS-Server automatisch.
+Erhöhen Sie Ihre Sicherheit:DCN empfiehlt die Nutzung des Mozilla Firefox Browsers den&nbsp;Schutz Ihres PCs durch F-Secure Client Security.]]></content:encoded>
+			<category>IT-Lösungen</category>
+			
+			
+			<pubDate>Tue, 28 Jul 2009 23:49:00 +0200</pubDate>
+			
+		</item>
+		
+		<item>
+			<title>WDB ruft SWYX</title>
+			<link>http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/wdb-ruft-swyx.html</link>
+			<description>WDB Unternehmensgruppe verbessert zukünftig Ihre Telekommunikation mit Swyx.</description>
+			<content:encoded><![CDATA[Nach einer überzeugenden Präsentation setzt die WDB Unternehmensgruppe&nbsp;jetzt auf Swyx. Mit Swyx werden die Schwesterunternehmen Wand- und Deckenbau GmbH, Schreinerei Zeyer GmbH und Trennwand 2000 Vertriebs GbR eine integrierte Telefonielösung von DCN erhalten.&nbsp;
+Die Integration&nbsp;umfasst&nbsp;die&nbsp;Zusammenführung der Kontakte in MS Outlook und Exchange, die Schnellwahl aus den Branchenlösungen Merlin und OSD sowie die&nbsp;telefonische Erreichbarkeit mit dem iPhone unterwegs oder mit SwyxIT im Homeoffice.]]></content:encoded>
+			<category>Blitznews</category>
+			<category>Swyx</category>
+			
+			
+			<pubDate>Sat, 18 Jul 2009 22:47:00 +0200</pubDate>
+			
+		</item>
+		
+		<item>
+			<title>Versandkosten</title>
+			<link>http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/versandkosten.html</link>
+			<description>BGH-Urteil: Versandkosten müssen in Preisvergleichslisten angegeben werden.</description>
+			<content:encoded><![CDATA[Ein Versandhändler, der Waren über eine Preissuchmaschine im Internet bewirbt, muss dabei auch auf beim Erwerb der Waren anfallende Versandkosten hinweisen. Für den Verbraucher müssten die tatsächlich anfallenden Kosten auf den ersten Blick erkennbar sein. Zuwiderhandlungen sind wettbewerbswidrig und können zu Abmahnungen führen.]]></content:encoded>
+			<category>Netlaw</category>
+			
+			
+			<pubDate>Sat, 18 Jul 2009 15:52:00 +0200</pubDate>
+			
+		</item>
+		
+	</channel>
+</rss>

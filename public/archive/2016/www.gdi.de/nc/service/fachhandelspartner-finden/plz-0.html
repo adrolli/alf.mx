@@ -1,0 +1,936 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--?xml version="1.0" encoding="utf-8"?--><html xml:lang="de" lang="de" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<!--
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2012 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.org/ and http://typo3.org/
+-->
+		<base href="/archive/2016/www.gdi.de/index.html">
+		<title>GDI Software: PLZ 0</title>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700" media="all">
+		<link rel="stylesheet" type="text/css" href="/archive/2016/www.gdi.de/typo3temp/stylesheet_58722e1d68.css" media="all">
+		<link rel="stylesheet" type="text/css" href="/archive/2016/www.gdi.de/fileadmin/templates/gdi/bootstrap.min.css" media="all">
+		<link rel="stylesheet" type="text/css" href="/archive/2016/www.gdi.de/fileadmin/Template/js/fancybox/jquery.fancybox.css" media="all">
+		<script src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/js/jquery/1.11.2/jquery.min.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/js/jquery/1.11.2/jquery-ui.min.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/js/jquery/flowplayer.min.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/js/jquery/jquerytools.expose.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/typo3temp/javascript_ebd9c81938.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="/archive/2016/www.gdi.de/fileadmin/Template/css/reset.css">
+		<link rel="stylesheet" href="/archive/2016/www.gdi.de/fileadmin/Template/css/screen.css">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements">
+		<link rel="shortcut icon" type="image/x-icon" href="/archive/2016/www.gdi.de/fileadmin/bilder/favicon.ico">
+		<script type="text/javascript">
+//<![CDATA[
+// js for all render methods
+function searchboxFocus(searchbox) {
+	if(searchbox.value == "Suchbegriff") {
+		searchbox.value = "";
+	}
+}
+
+function resetCheckboxes(filter) {
+	allLi = document.getElementsByName("optionCheckBox" + filter);
+	allCb = new Array();
+	for(i = 0; i < allLi.length; i++) {
+		allCb[i] = allLi[i].getElementsByTagName("input");
+	}
+	for(i = 0; i < allCb.length; i++) {
+		allCb[i][0].checked = false;
+	}
+}
+
+function enableCheckboxes(filter) {
+	var lis = document.getElementsByTagName("LI");
+	//alert(lis.count());
+	var allCb = new Array();
+	var allCbChecked = true;
+	var count = 0;
+	var optionClass = new Array();
+	for(var i = 0; i < lis.length; i++) {
+		if (optionClasses = lis[i].getAttribute("class", 1)) {
+			optionClassesArray = optionClasses.split(" ");
+			//alert(optionClasses);
+			if(optionClassesArray[1] == "optionCheckBox" + filter) {
+				allCb[count] = lis[i].getElementsByTagName("input")[0];
+				count++;
+			}
+		}
+	}
+	for(i = 0; i < allCb.length; i++) {
+		if(!allCb[i].checked) {
+			allCbChecked = false;
+		}
+	}
+	if(allCbChecked) {
+		for(i = 0; i < allCb.length; i++) {
+			allCb[i].checked = false;
+		}
+	} else {
+		for(i = 0; i < allCb.length; i++) {
+			allCb[i].checked = true;
+		}
+	}
+}
+//]]>
+</script>
+	</head>
+	<body id="page_1777" class="parent_1695 style5 lang_0">
+		<div class="pageWrap">
+			<div id="headline">
+				<div class="innerWrap">
+					<ul>
+						<li id="loginButton" class="disabled"><span class="loginbox">
+								<div class="tx-felogin-pi1">
+									<form action="/archive/2016/www.gdi.de/nc/service/fachhandelspartner-finden/plz-0.html" target="_top" method="post" onsubmit="; return true;"><input type="text" id="user" name="user" value="" placeholder="BENUTZER"><input type="password" id="pass" name="pass" value="" placeholder="PASSWORD"><input type="hidden" name="logintype" value="login"><input type="hidden" name="pid" value="597,596"><input type="hidden" name="redirect_url" value=""><input type="hidden" name="tx_felogin_pi1[noredirect]" value="0"><input type="submit" name="submit" value="Login">
+										<div class="messages">
+											<h3>Benutzeranmeldung</h3>
+											<div>Geben Sie Ihren Benutzernamen und Ihr Passwort ein, um sich an der Website anzumelden:</div>
+										</div>
+									</form>
+								</div>
+							</span><a href="/archive/2016/www.gdi.de/nc/service/fachhandelspartner-finden/plz-0.html">Login</a></li>
+						<li id="searchButton" class="disabled"><span class="searchBox">
+								<div id="top-searchBox">
+									<div id="c6907" class="csc-default">
+										<div class="tx-kesearch-pi1">
+											<form method="get" id="xajax_form_kesearch_pi1" name="xajax_form_kesearch_pi1" action="/archive/2016/www.gdi.de/index.php" class="static"><input type="hidden" name="id" value="181"><input type="text" id="ke_search_sword" name="tx_kesearch_pi1[sword]" value="Suchbegriff" onfocus=" searchboxFocus(this); "><input type="image" id="kesearch_submit" src="/archive/2016/www.gdi.de/typo3conf/ext/ke_search/res/img/kesearch_submit.png" alt="Finden" class="submit" onclick="document.getElementById('pagenumber').value=1; document.getElementById('xajax_form_kesearch_pi1').submit();"><input id="pagenumber" type="hidden" name="tx_kesearch_pi1[page]" value="1"><input id="resetFilters" type="hidden" name="tx_kesearch_pi1[resetFilters]" value="0"><input id="sortByField" type="hidden" name="tx_kesearch_pi1[sortByField]" value=""><input id="sortByDir" type="hidden" name="tx_kesearch_pi1[sortByDir]" value="">
+												<div id="kesearch_filters"></div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</span><a href="/archive/2016/www.gdi.de/nc/service/fachhandelspartner-finden/plz-0.html">Suche</a></li>
+						<li id="kontaktbutton"><img src="/archive/2016/www.gdi.de/fileadmin/Template/media/gdi_kontakt.png" alt="GDI Kontaktbutton">Kostenfrei Informieren <span class="number">0800 95 500 95</span></li>
+					</ul>
+					<div class="clearer"></div>
+				</div>
+			</div>
+			<div class="container" id="logorow">
+				<div class="innerWrap">
+					<div class="logo">
+						<h1><a href="/archive/2016/www.gdi.de/index.html" title="GDI mbH - Startseite"><img src="/archive/2016/www.gdi.de/fileadmin/Template/media/gdi_logo.png" alt="GDI mbH - Logo"></a></h1>
+					</div>
+					<div class="clearer"></div>
+				</div>
+			</div>
+			<div class="container" id="mainnavi">
+				<div class="innerWrap">
+					<nav class="navbar navbar-default">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-gdi-navbar-collapse" aria-expanded="false"><span class="sr-only">Navigation ein-/ausblenden</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+							<a href="/archive/2016/www.gdi.de/nc/service/fachhandelspartner-finden/plz-0.html" class="navbar-brand hidden-lg hidden-md hidden-sm" data-toggle="collapse" data-target="#bs-gdi-navbar-collapse" aria-expanded="false">Navigation</a> </div>
+						<div class="collapse navbar-collapse" id="bs-gdi-navbar-collapse">
+							<ul class="nav navbar-nav">
+								<li id="mi89"><a href="/archive/2016/www.gdi.de/startseite.html" title="ERP | CRM | Finanzbuchhaltung | Lohnabrechnung | Personalzeiterfassung | Anlagenbuchhaltung | Kostenrechnung">Startseite</a></li>
+								<li id="mi90"><a href="/archive/2016/www.gdi.de/loesungen-fuer-den-mittelstand.html" title="ERP Software für den Mittelstand">Für mittlere Unternehmen</a></li>
+								<li id="mi91"><a href="/archive/2016/www.gdi.de/loesungen-fuer-kleine-unternehmen.html" title="Bürosoftware für kleine Unternehmen">Für kleine Unternehmen</a></li>
+								<li id="mi92"><a href="/archive/2016/www.gdi.de/gdi-das-unternehmen.html" title="GDI - das Unternehmen">GDI</a></li>
+								<li id="mi93" class="active"><a href="/archive/2016/www.gdi.de/service.html" title="Service ist unser Programm">Service</a></li>
+								<li id="mi1856"><a href="/archive/2016/www.gdi.de/fachhandelsportal.html">Fachhandelsportal</a></li>
+								<li id="mi94"><a href="/archive/2016/www.gdi.de/partner.html">Partner</a></li>
+								<li id="mi2432"><a href="/archive/2016/www.gdi.de/gdi-das-unternehmen/kontakt.html">Kontakt</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+			<div class="container" id="mainContent">
+				<div class="innerWrap">
+					<div class="threeColSet row">
+						<div class="colleft col-md-2 col-sm-3">
+							<div class="contentElement">
+								<ul class="submenu">
+									<li id="mi976"><a href="/archive/2016/www.gdi.de/service/die-gdi-akademie.html" title="Seminare" class="Level1Item">Die GDI-Akademie</a></li>
+									<li id="mi2055"><a href="/archive/2016/www.gdi.de/service/service-videos.html" class="Level1Item">Service Videos</a></li>
+									<li id="mi1695" class="active"><a href="/archive/2016/www.gdi.de/service/fachhandelspartner-finden.html" title="Fachhandelspartner und Kompetenzcenter" class="Level1Item">Fachhandelspartner finden</a></li>
+									<li id="mi142"><a href="/archive/2016/www.gdi.de/service/kunden-login.html" class="Level1Item">Kunden-Login</a></li>
+									<li id="mi145"><a href="/archive/2016/www.gdi.de/service/download-bereich.html" class="Level1Item">Download-Bereich</a></li>
+									<li id="mi1754"><a href="/archive/2016/www.gdi.de/service/systemvoraussetzungen.html" class="Level1Item">Systemvoraussetzungen</a></li>
+									<li id="mi960"><a href="/archive/2016/www.gdi.de/service/gdimeldecenter.html" class="Level1Item">GDI MeldeCenter-Anmeldung</a></li>
+								</ul>
+							</div>
+							<div class="innerContentWrap"></div>
+						</div>
+						<div class="maincol col-md-10 col-sm-9">
+							<div class="row">
+								<div class="col-sm-9">
+									<div class="contentElement">
+										<div id="c4060" class="csc-default">
+											<div class="csc-header csc-header-n1">
+												<h2 class="csc-firstHeader">Fachhandelspartner im PLZ-Gebiet 0</h2>
+											</div>
+											<div class="user-gdidealermod-pi1">
+												<form action="" method="POST"><input type="hidden" name="dealer_zip" value="0"><select name="dealer_order" onchange="submit();" style="display:none;"><option value="0">Name</option><option value="1">PLZ</option></select></form>
+												<script type="text/javascript" language="JavaScript">
+
+// Erzeugt eine neue Instanz eines XMLHttpRequest
+function getRequest()
+{
+	var xmlreq = false;
+
+	// Mozilla-Style
+	if (window.XMLHttpRequest) {
+		xmlreq = new XMLHttpRequest();
+	}
+
+	// neue IE-Version
+	else if (window.ActiveXObject) {
+		try {
+			xmlreq = new ActiveXObject("Msxml2.XMLHTTP");
+		}
+		catch (e1) {
+			try {
+
+				// alte IE-Versionen
+				xmlreq = new ActiveXObject("Microsoft.XMLHTTP");
+			}
+			catch (e2) {
+			}
+		}
+	}
+	return xmlreq;
+}
+
+// Liefert den response der �bergebenen Seite in Form eines Strings
+// Gibt false zur�ck, falls etwas schief gelaufen ist
+function synchronousTextRequest(url, params)
+{
+    var req = getRequest();
+    var response = false;
+    var paramstring = "";
+
+    // Parameter-String bauen
+    if (params != null) {
+        var paramstring = new Array();
+        for (i in params) {
+        	if(params.hasOwnProperty(i)) {
+            	paramstring.push(i + "=" + params[i]);
+        	}
+        }
+        paramstring = paramstring.join("&");
+    }
+    // Abfrage starten
+    req.open("POST", url, false);
+    req.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    req.send(paramstring);
+    if (req.status == "200") {
+        response = req.responseText;
+    }
+    return response;
+}
+
+// Zeigt die Infobox an und fordert Infos vom Server
+function showInfo(uid) {
+
+  infobox = document.getElementById("dealer_infobox");
+  closedef = '<div id="infoclose" onclick="hideInfo();">Close</div>';
+
+  infobox.innerHTML = closedef;
+  infobox.style.display = "block";
+
+  params = new Array();
+  params["dealer_uid"] = uid;
+
+  infobox.innerHTML = closedef + synchronousTextRequest("###INFOLINK###", params);
+  return false;
+}
+
+// Schliest die Infobox wieder
+function hideInfo() {
+  document.getElementById("dealer_infobox").style.display = "none";
+}
+
+</script>
+												<div id="dealer_infobox" style="display: none;"></div>
+												<div class="table-responsive">
+													<table class="table dealerlist" cellpadding="0" cellspacing="0">
+														<thead>
+															<tr>
+																<th class="thn1">Unternehmen</th>
+																<th class="thn2"> </th>
+																<th class="thn3">PLZ + Kontakt</th>
+																<th class="thn4">Profil</th>
+															</tr>
+														</thead>
+														<tbody>
+															<tr class="dealerrow1">
+																<td valign="top" class="thn1">b+s Bienasch &amp; Siggelkow</td>
+																<td valign="top" class="thn2"><img src="/archive/2016/www.gdi.de/fileadmin/style/dealermod/premium_kompetenz_02.png" alt="KompetenzCenter" title="KompetenzCenter"></td>
+																<td valign="top" class="thn3">12435 Berlin<br> Elsenstr. 106<br> 030 568821-0 </td>
+																<td valign="top" class="thn4"><span class="dbut">Ansehen</span>
+																	<div class="ddetail" style="display:none;">
+																		<div class="mbox">
+																			<div class="mboxtop">
+																				<h1>b+s Bienasch &amp; Siggelkow</h1>
+																				<strong>GDI Kompetenzcenter</strong><br></div>
+																			<div class="mboxmiddle">
+																				<table border="0">
+																					<tr>
+																						<td width="30" valign="top"><img src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/images/dealer/anfuehrungszeichen.gif" style="float:left;" alt=""></td>
+																						<td>
+																							<p class="bodytext">Als GDI Kompetenz Center unterstützen wir seit 1992 unsere Partner im Vertrieb, der Hotline und dem Support sowie bei der Realisierung von Projekten. Ergänzend zur GDI Produktpalette bieten wir unseren Partnern Branchenlösungen. Abgerundet wird unsere Produktpalette durch ein Management Informationssystem sowie die Anbindung an elektronische Archivierung und eCommerce.</p>
+																						</td>
+																					</tr>
+																				</table>
+																			</div>
+																			<div class="mboxbottom"><strong>b+s Bienasch &amp; Siggelkow</strong><br> 12435 Berlin<br> Elsenstr. 106<br>
+																				<table width="100%" cellpadding="0" cellspacing="0" border="0">
+																					<tr>
+																						<td> Tel. </td>
+																						<td width="150"> 030 568821-0 </td>
+																						<td> Web </td>
+																						<td><a href="http://www.bs-systemhaus.de" target="_blank">www.bs-systemhaus.de</a> </td>
+																					</tr>
+																					<tr>
+																						<td> Fax </td>
+																						<td width="150"> 030 568821-39 </td>
+																						<td> E-Mail </td>
+																						<td><a href="mailto:info@bs-systemhaus.de" target="_blank">info@bs-systemhaus.de</a> </td>
+																					</tr>
+																				</table>
+																			</div>
+																			<div class="noclick"></div>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr class="dealerrow2">
+																<td valign="top" class="thn1">COMMON Computer</td>
+																<td valign="top" class="thn2"><img src="/archive/2016/www.gdi.de/fileadmin/style/dealermod/premium_kompetenz_02.png" alt="PremiumPartner" title="PremiumPartner"></td>
+																<td valign="top" class="thn3">04177 Leipzig<br> Kindstraße 4<br> 0341 4803372 </td>
+																<td valign="top" class="thn4"><span class="dbut">Ansehen</span>
+																	<div class="ddetail" style="display:none;">
+																		<div class="mbox">
+																			<div class="mboxtop">
+																				<h1>COMMON Computer</h1>
+																				<strong>GDI Premium Partner</strong><br></div>
+																			<div class="mboxmiddle">
+																				<table border="0">
+																					<tr>
+																						<td width="30" valign="top"><img src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/images/dealer/anfuehrungszeichen.gif" style="float:left;" alt=""></td>
+																						<td>
+																							<p class="bodytext">Die COMMON Computer Monitor Service GmbH versteht sich als IT-Dienstleister mit folgenden Schwerpunkten: Beratung, Einführung und kundengerechte Individualisierung kaufmännischer Softwarelösungen aus dem Hause GDI, Schulungen zur effizienten Nutzung der kaufmännischen Software, Verkauf und technischer Service für Computer und Computerperipherie, Konzeption, Installation von Netzwerken mit nachfolgenden Serviceleistungen, Erarbeitung und Umsetzung von IT-Sicherheitskonzepten für Unternehmen.</p>
+																						</td>
+																					</tr>
+																				</table>
+																			</div>
+																			<div class="mboxbottom"><strong>COMMON Computer</strong><br> 04177 Leipzig<br> Kindstraße 4<br>
+																				<table width="100%" cellpadding="0" cellspacing="0" border="0">
+																					<tr>
+																						<td> Tel. </td>
+																						<td width="150"> 0341 4803372 </td>
+																						<td> Web </td>
+																						<td><a href="http://common4u.de/software/gdi-premium-partner" target="_blank">www.common4u.de</a> </td>
+																					</tr>
+																					<tr>
+																						<td> Fax </td>
+																						<td width="150"> 0341 4803374 </td>
+																						<td> E-Mail </td>
+																						<td><a href="mailto:gdi@common4u.de" target="_blank">gdi@common4u.de</a> </td>
+																					</tr>
+																				</table>
+																			</div>
+																			<div class="noclick"></div>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr class="dealerrow1">
+																<td valign="top" class="thn1">EDV-Beratung Nagel</td>
+																<td valign="top" class="thn2"><img src="/archive/2016/www.gdi.de/fileadmin/style/dealermod/premium_kompetenz_02.png" alt="PremiumPartner" title="PremiumPartner"></td>
+																<td valign="top" class="thn3">09337 Bernsdorf<br> Hauptstraße 191<br> 03720 482767 </td>
+																<td valign="top" class="thn4"><span class="dbut">Ansehen</span>
+																	<div class="ddetail" style="display:none;">
+																		<div class="mbox">
+																			<div class="mboxtop">
+																				<h1>EDV-Beratung Nagel</h1>
+																				<strong>GDI Premium Partner</strong><br></div>
+																			<div class="mboxmiddle">
+																				<table border="0">
+																					<tr>
+																						<td width="30" valign="top"><img src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/images/dealer/anfuehrungszeichen.gif" style="float:left;" alt=""></td>
+																						<td>
+																							<p class="bodytext">Die Firma EDV-Beratung Nagel wurde im November 1992 als selbständiges Unternehmen gegründet. Als GDI-Premium-Partner kümmern wir uns um die Beratung, Organisation und Umsetzung von betrieblichen Abläufen. Hardware - Wir liefern und installieren vom Arbeitsplatzcomputer bis zu kompletten Netzwerken incl. aller Komponenten. Konfigurationen werden nur im Bereich von Windows-Systemen durchgeführt. Auf- Umrüstungen sowie Reaparaturen gehören mit zu unserem Aufgabenbereich. </p>
+																						</td>
+																					</tr>
+																				</table>
+																			</div>
+																			<div class="mboxbottom"><strong>EDV-Beratung Nagel</strong><br> 09337 Bernsdorf<br> Hauptstraße 191<br>
+																				<table width="100%" cellpadding="0" cellspacing="0" border="0">
+																					<tr>
+																						<td> Tel. </td>
+																						<td width="150"> 03720 482767 </td>
+																						<td> Web </td>
+																						<td><a href="http://www.edv-nagel.de/index.php/gdi" target="_blank">EDV-NAGEL.DE</a> </td>
+																					</tr>
+																					<tr>
+																						<td> Fax </td>
+																						<td width="150"> 03720 42422 </td>
+																						<td> E-Mail </td>
+																						<td><a href="mailto:INFO@EDV-NAGEL.DE" target="_blank">INFO@EDV-NAGEL.DE</a> </td>
+																					</tr>
+																				</table>
+																			</div>
+																			<div class="noclick"></div>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr class="dealerrow2">
+																<td valign="top" class="thn1">Softwarebüro Renner</td>
+																<td valign="top" class="thn2"><img src="/archive/2016/www.gdi.de/fileadmin/style/dealermod/premium_kompetenz_02.png" alt="PremiumPartner" title="PremiumPartner"></td>
+																<td valign="top" class="thn3">01917 Kamenz<br> Macherstraße 18<br> 03578 3843-0 </td>
+																<td valign="top" class="thn4"><span class="dbut">Ansehen</span>
+																	<div class="ddetail" style="display:none;">
+																		<div class="mbox">
+																			<div class="mboxtop">
+																				<h1>Softwarebüro Renner</h1>
+																				<strong>GDI Premium Partner</strong><br></div>
+																			<div class="mboxmiddle">
+																				<table border="0">
+																					<tr>
+																						<td width="30" valign="top"><img src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/images/dealer/anfuehrungszeichen.gif" style="float:left;" alt=""></td>
+																						<td>
+																							<p class="bodytext">IT-Dienstleister mit umfangreichen Erfahrungen seit März 1990 - wir leisten für Sie: Organisationsberatung -&gt; Vertrieb kaufmännischer Software aus dem Hause GDI u. deren Anpassung an Ihre betrieblichen Gegebenheiten -&gt; Schulung und laufende Anwendungsunterstützung -&gt; Schnittstellenprogrammierung -&gt; Anwendungsprogrammierung -&gt; Planung, Installation und Service vom einzelnen PC bis hin zu großen Netzwerken -&gt; Planung, Vertrieb und Service von IT-Sicherheitslösungen.</p>
+																						</td>
+																					</tr>
+																				</table>
+																			</div>
+																			<div class="mboxbottom"><strong>Softwarebüro Renner</strong><br> 01917 Kamenz<br> Macherstraße 18<br>
+																				<table width="100%" cellpadding="0" cellspacing="0" border="0">
+																					<tr>
+																						<td> Tel. </td>
+																						<td width="150"> 03578 3843-0 </td>
+																						<td> Web </td>
+																						<td><a href="http://www.softwarebuero-renner.de/" target="_blank">www.softwarebuero-renner.de</a> </td>
+																					</tr>
+																					<tr>
+																						<td> Fax </td>
+																						<td width="150"> 03578 3843-30 </td>
+																						<td> E-Mail </td>
+																						<td><a href="mailto:swb.renner@t-online.de" target="_blank">swb.renner@t-online.de</a> </td>
+																					</tr>
+																				</table>
+																			</div>
+																			<div class="noclick"></div>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr class="dealerrow1">
+																<td valign="top" class="thn1">Ingenieurbüro Vogel GmbH</td>
+																<td valign="top" class="thn2"><img src="/archive/2016/www.gdi.de/fileadmin/style/dealermod/profi_02.png" alt="ProfiPartner" title="ProfiPartner"></td>
+																<td valign="top" class="thn3">08451 Crimmitschau<br> Carl-Spengler-Straße 1<br> 03762 931317 </td>
+																<td valign="top" class="thn4"><span class="dbut">Ansehen</span>
+																	<div class="ddetail" style="display:none;">
+																		<div class="mbox">
+																			<div class="mboxtop">
+																				<h1>Ingenieurbüro Vogel GmbH</h1>
+																				<strong>GDI Profi Partner</strong><br></div>
+																			<div class="mboxmiddle">
+																				<table border="0">
+																					<tr>
+																						<td width="30" valign="top"><img src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/images/dealer/anfuehrungszeichen.gif" style="float:left;" alt=""></td>
+																						<td>
+																							<p class="bodytext">Wir arbeiten seit 1995 mit dem Haus GDI zusammen und erhielten im Jahr 2005 den Status des Profi-Partners.Unsere Arbeit beinhaltet eine strikte Kundenorientierung. Dabei legen wir besonderen Wert auf:- Qualität ohne Kompromisse- hohe Verfügbarkeit unseres Personals- langfristig angelegte Partnerschaften mit unseren Kunden- individuelle, persönliche und objektive Beratung und Betreuung</p>
+																						</td>
+																					</tr>
+																				</table>
+																			</div>
+																			<div class="mboxbottom"><strong>Ingenieurbüro Vogel GmbH</strong><br> 08451 Crimmitschau<br> Carl-Spengler-Straße 1<br>
+																				<table width="100%" cellpadding="0" cellspacing="0" border="0">
+																					<tr>
+																						<td> Tel. </td>
+																						<td width="150"> 03762 931317 </td>
+																						<td> Web </td>
+																						<td><a href="http://www.ibvgmbh.de" target="_blank">www.ibvgmbh.de</a> </td>
+																					</tr>
+																					<tr>
+																						<td> Fax </td>
+																						<td width="150"> 03762 931318 </td>
+																						<td> E-Mail </td>
+																						<td><a href="mailto:info@ibvgmbh.de" target="_blank">info@ibvgmbh.de</a> </td>
+																					</tr>
+																				</table>
+																			</div>
+																			<div class="noclick"></div>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr class="dealerrow2">
+																<td valign="top" class="thn1">Kaupisch ITC-Solution</td>
+																<td valign="top" class="thn2"><img src="/archive/2016/www.gdi.de/fileadmin/style/dealermod/profi_02.png" alt="ProfiPartner" title="ProfiPartner"></td>
+																<td valign="top" class="thn3">03238 Finsterwalde<br> Geschwister-Scholl-Str. 6a<br> 03531 6095-0 </td>
+																<td valign="top" class="thn4"><span class="dbut">Ansehen</span>
+																	<div class="ddetail" style="display:none;">
+																		<div class="mbox">
+																			<div class="mboxtop">
+																				<h1>Kaupisch ITC-Solution</h1>
+																				<strong>GDI Profi Partner</strong><br></div>
+																			<div class="mboxmiddle">
+																				<table border="0">
+																					<tr>
+																						<td width="30" valign="top"><img src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/images/dealer/anfuehrungszeichen.gif" style="float:left;" alt=""></td>
+																						<td>
+																							<p class="bodytext">Wir sind ein 1990 gegründetes, leistungsstarkes ITK-Systemhaus mit Sitz in Finsterwalde. Neben der Realisierung und Betreuung modernster IT-Netzwerk- und Telekommunikationsstrukturen umfasst das Angebot vor allem auch die individuelle Anpassung sowie die Betreuung kaufmännischer Unternehmenssoftware. Als GDI Profi-Partner betreuen wir mittelständische Unternehmen aller Branchen zuverlässig und professionell in den Bereichen Auftragsbearbeitung/Warenwirtschaft, Finanzbuchhaltung, Anlagenbuchhaltung, Lohn &amp; Gehalt sowie Kostenrechnung.</p>
+																						</td>
+																					</tr>
+																				</table>
+																			</div>
+																			<div class="mboxbottom"><strong>Kaupisch ITC-Solution</strong><br> 03238 Finsterwalde<br> Geschwister-Scholl-Str. 6a<br>
+																				<table width="100%" cellpadding="0" cellspacing="0" border="0">
+																					<tr>
+																						<td> Tel. </td>
+																						<td width="150"> 03531 6095-0 </td>
+																						<td> Web </td>
+																						<td><a href="http://www.kaupisch-itc.de/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=44&amp;Itemid=92%20" target="_blank">www.kaupisch-itc.de</a> </td>
+																					</tr>
+																					<tr>
+																						<td> Fax </td>
+																						<td width="150"> 03531 6095-55 </td>
+																						<td> E-Mail </td>
+																						<td><a href="mailto:info@kaupisch-itc.de" target="_blank">info@kaupisch-itc.de</a> </td>
+																					</tr>
+																				</table>
+																			</div>
+																			<div class="noclick"></div>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr class="dealerrow1">
+																<td valign="top" class="thn1">Monika Mayer</td>
+																<td valign="top" class="thn2"><img src="/archive/2016/www.gdi.de/fileadmin/style/dealermod/profi_02.png" alt="ProfiPartner" title="ProfiPartner"></td>
+																<td valign="top" class="thn3">14482 Potsdam<br> Wollestraße 30<br> 0331 5509-873 </td>
+																<td valign="top" class="thn4"><span class="dbut">Ansehen</span>
+																	<div class="ddetail" style="display:none;">
+																		<div class="mbox">
+																			<div class="mboxtop">
+																				<h1>Monika Mayer</h1>
+																				<strong>GDI Profi Partner</strong><br></div>
+																			<div class="mboxmiddle">
+																				<table border="0">
+																					<tr>
+																						<td width="30" valign="top"><img src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/images/dealer/anfuehrungszeichen.gif" style="float:left;" alt=""></td>
+																						<td>
+																							<p class="bodytext">Sie möchten durch modernste Software (Client-Server Technologie) die Abläufe in Ihrem gesamten Unternehmen optimieren, in Teilbereichen veraltete Programme ablösen oder ein bestehendes System erweitern ? Wir bieten ausgereifte Standard-Module, programmieren Anpassungen und Datenübernahmen und weisen Ihre Bediener zügig und praxisorientiert ein. Mit Service-Hotline und Update-Service sorgen wir dafür, dass Sie viele Jahre den optimalen Nutzen aus Ihrer Investition ziehen können !</p>
+																						</td>
+																					</tr>
+																				</table>
+																			</div>
+																			<div class="mboxbottom"><strong>Monika Mayer</strong><br> 14482 Potsdam<br> Wollestraße 30<br>
+																				<table width="100%" cellpadding="0" cellspacing="0" border="0">
+																					<tr>
+																						<td> Tel. </td>
+																						<td width="150"> 0331 5509-873 </td>
+																						<td> Web </td>
+																						<td><a href="http://www.mayer-berlin.de/software/" target="_blank">www.mayer-berlin.de</a> </td>
+																					</tr>
+																					<tr>
+																						<td> Fax </td>
+																						<td width="150"> 0331 7043-509 </td>
+																						<td> E-Mail </td>
+																						<td><a href="mailto:m_mayer@mayer-berlin.de" target="_blank">m_mayer@mayer-berlin.de</a> </td>
+																					</tr>
+																				</table>
+																			</div>
+																			<div class="noclick"></div>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr class="dealerrow2">
+																<td valign="top" class="thn1">Bannert + Franke</td>
+																<td valign="top" class="thn2"><img src="/archive/2016/www.gdi.de/fileadmin/style/dealermod/standard_02.png" alt="Partner" title="Partner"></td>
+																<td valign="top" class="thn3">06667 Weißenfels<br> Neue Str. 2<br> 03443 333545 </td>
+																<td valign="top" class="thn4"><span class="dbut">Ansehen</span>
+																	<div class="ddetail" style="display:none;">
+																		<div class="mbox">
+																			<div class="mboxtop">
+																				<h1>Bannert + Franke</h1>
+																				<strong>GDI Partner</strong><br></div>
+																			<div class="mboxmiddle">
+																				<table border="0">
+																					<tr>
+																						<td width="30" valign="top"><img src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/images/dealer/anfuehrungszeichen.gif" style="float:left;" alt=""></td>
+																						<td>
+																							<p class="bodytext">Die Zusammenarbeit mit GDI - seit 1991- sowie mit namhaften PC-Herstellern gibt unseren Kunden Investitionssicherheit. Langjährige Erfahrungen mit unseren Produkten garantieren Ihnen umfangreiche Fachkenntnisse. Ständige Fort- und Weiterbildungen sichern einen hohen Stand an Fachkompetenz. Dies bestätigen anerkannte Zertifikate. </p>
+																						</td>
+																					</tr>
+																				</table>
+																			</div>
+																			<div class="mboxbottom"><strong>Bannert + Franke</strong><br> 06667 Weißenfels<br> Neue Str. 2<br>
+																				<table width="100%" cellpadding="0" cellspacing="0" border="0">
+																					<tr>
+																						<td> Tel. </td>
+																						<td width="150"> 03443 333545 </td>
+																						<td> Web </td>
+																						<td><a href="http://" target="_blank"></a> </td>
+																					</tr>
+																					<tr>
+																						<td> Fax </td>
+																						<td width="150"> 03443 333546 </td>
+																						<td> E-Mail </td>
+																						<td><a href="mailto:sbannert@bf-systemhaus.de" target="_blank">sbannert@bf-systemhaus.de</a> </td>
+																					</tr>
+																				</table>
+																			</div>
+																			<div class="noclick"></div>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr class="dealerrow1">
+																<td valign="top" class="thn1">Business-Ware and Trainings</td>
+																<td valign="top" class="thn2"><img src="/archive/2016/www.gdi.de/fileadmin/style/dealermod/standard_02.png" alt="Partner" title="Partner"></td>
+																<td valign="top" class="thn3">06366 Koethen<br> Querstraße 15<br> 03496 4158125 </td>
+																<td valign="top" class="thn4"><span class="dbut">Ansehen</span>
+																	<div class="ddetail" style="display:none;">
+																		<div class="mbox">
+																			<div class="mboxtop">
+																				<h1>Business-Ware and Trainings</h1>
+																				<strong>GDI Partner</strong><br></div>
+																			<div class="mboxmiddle">
+																				<table border="0">
+																					<tr>
+																						<td width="30" valign="top"><img src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/images/dealer/anfuehrungszeichen.gif" style="float:left;" alt=""></td>
+																						<td>
+																							<p class="bodytext">Als Profipartner für kaufmännische Software der Firma GDI bieten wir den Vorortservice mit qualifizierter Beratung - von der Bedarfsanalyse über Hard- und Softwarefragen bis hin zu individuellen Anpassungsmöglichkeiten. Ob kleine oder mittelständische Unternehmen, unsere Kunden sind in nahezu allen Branchen zu finden.</p>
+																						</td>
+																					</tr>
+																				</table>
+																			</div>
+																			<div class="mboxbottom"><strong>Business-Ware and Trainings</strong><br> 06366 Koethen<br> Querstraße 15<br>
+																				<table width="100%" cellpadding="0" cellspacing="0" border="0">
+																					<tr>
+																						<td> Tel. </td>
+																						<td width="150"> 03496 4158125 </td>
+																						<td> Web </td>
+																						<td><a href="http://www.bwats.de/gdi.html" target="_blank">www.bwats.de</a> </td>
+																					</tr>
+																					<tr>
+																						<td> Fax </td>
+																						<td width="150"> 03496 4158127 </td>
+																						<td> E-Mail </td>
+																						<td><a href="mailto:info@bwats.de" target="_blank">info@bwats.de</a> </td>
+																					</tr>
+																				</table>
+																			</div>
+																			<div class="noclick"></div>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr class="dealerrow2">
+																<td valign="top" class="thn1">HIT Systemhaus GmbH</td>
+																<td valign="top" class="thn2"><img src="/archive/2016/www.gdi.de/fileadmin/style/dealermod/standard_02.png" alt="Partner" title="Partner"></td>
+																<td valign="top" class="thn3">09337 Hohenstein-Er.<br> Schillerstr. 4<br> 03723 653533 </td>
+																<td valign="top" class="thn4"><span class="dbut">Ansehen</span>
+																	<div class="ddetail" style="display:none;">
+																		<div class="mbox">
+																			<div class="mboxtop">
+																				<h1>HIT Systemhaus GmbH</h1>
+																				<strong>GDI Partner</strong><br></div>
+																			<div class="mboxmiddle">
+																				<table border="0">
+																					<tr>
+																						<td width="30" valign="top"><img src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/images/dealer/anfuehrungszeichen.gif" style="float:left;" alt=""></td>
+																						<td>
+																							<p class="bodytext">HIT Systemhaus GmbH wurde im Juli 1997 gegründet. Der Mitarbeiterstamm setzt sich aus Experten mit langjähriger Erfahrung in der EDV zusammen. Wir sind seit Beginn GDI Partner und vertreiben die GDI-Software an kleine und mittlere Unternehmen. </p>
+																						</td>
+																					</tr>
+																				</table>
+																			</div>
+																			<div class="mboxbottom"><strong>HIT Systemhaus GmbH</strong><br> 09337 Hohenstein-Er.<br> Schillerstr. 4<br>
+																				<table width="100%" cellpadding="0" cellspacing="0" border="0">
+																					<tr>
+																						<td> Tel. </td>
+																						<td width="150"> 03723 653533 </td>
+																						<td> Web </td>
+																						<td><a href="http://www.hit-systemhaus.de" target="_blank">www.hit-systemhaus.de</a> </td>
+																					</tr>
+																					<tr>
+																						<td> Fax </td>
+																						<td width="150"> 03723 653530 </td>
+																						<td> E-Mail </td>
+																						<td><a href="mailto:info@hit-systemhaus.de" target="_blank">info@hit-systemhaus.de</a> </td>
+																					</tr>
+																				</table>
+																			</div>
+																			<div class="noclick"></div>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr class="dealerrow1">
+																<td valign="top" class="thn1">KADSOFT Computer GmbH</td>
+																<td valign="top" class="thn2"><img src="/archive/2016/www.gdi.de/fileadmin/style/dealermod/standard_02.png" alt="Partner" title="Partner"></td>
+																<td valign="top" class="thn3">01705 Freital<br> Poisentalstraße 112<br> 0351 6472333 </td>
+																<td valign="top" class="thn4"><span class="dbut">Ansehen</span>
+																	<div class="ddetail" style="display:none;">
+																		<div class="mbox">
+																			<div class="mboxtop">
+																				<h1>KADSOFT Computer GmbH</h1>
+																				<strong>GDI Partner</strong><br></div>
+																			<div class="mboxmiddle">
+																				<table border="0">
+																					<tr>
+																						<td width="30" valign="top"><img src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/images/dealer/anfuehrungszeichen.gif" style="float:left;" alt=""></td>
+																						<td>
+																							<p class="bodytext">Ihr GDI-Partner im Dresdner Raum !Beratung erfordert nicht nur Wissen, sondern auch Erfahrung. Unsere langjährige Kundenbetreuung bildet die Basis für eine erfolgreiche Zusammenarbeit.</p>
+																						</td>
+																					</tr>
+																				</table>
+																			</div>
+																			<div class="mboxbottom"><strong>KADSOFT Computer GmbH</strong><br> 01705 Freital<br> Poisentalstraße 112<br>
+																				<table width="100%" cellpadding="0" cellspacing="0" border="0">
+																					<tr>
+																						<td> Tel. </td>
+																						<td width="150"> 0351 6472333 </td>
+																						<td> Web </td>
+																						<td><a href="http://www.kadsoft.de/index.php/datentechnik-mainmenu-4/kaufmaennische-software" target="_blank">www.kadsoft.de</a> </td>
+																					</tr>
+																					<tr>
+																						<td> Fax </td>
+																						<td width="150"> 0351 6472443 </td>
+																						<td> E-Mail </td>
+																						<td><a href="mailto:info@kadsoft.de" target="_blank">info@kadsoft.de</a> </td>
+																					</tr>
+																				</table>
+																			</div>
+																			<div class="noclick"></div>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr class="dealerrow2">
+																<td valign="top" class="thn1">Richter &amp; Schimmang</td>
+																<td valign="top" class="thn2"><img src="/archive/2016/www.gdi.de/fileadmin/style/dealermod/standard_02.png" alt="Partner" title="Partner"></td>
+																<td valign="top" class="thn3">09353 Oberlungwitz<br> Stollberger Straße 4<br> 03723 6501-0 </td>
+																<td valign="top" class="thn4"><span class="dbut">Ansehen</span>
+																	<div class="ddetail" style="display:none;">
+																		<div class="mbox">
+																			<div class="mboxtop">
+																				<h1>Richter &amp; Schimmang</h1>
+																				<strong>GDI Partner</strong><br></div>
+																			<div class="mboxmiddle">
+																				<table border="0">
+																					<tr>
+																						<td width="30" valign="top"><img src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/images/dealer/anfuehrungszeichen.gif" style="float:left;" alt=""></td>
+																						<td>
+																							<p class="bodytext">Wir bieten unsere Unterstützung und Dienstleistungen rund um die Computertechnik und der von uns vertriebenen Software an. Die Unterstützung bezieht sich auch auf alle EDV-Lebensphasen von der Vorbereitung und Planung über Installation und Einführung bis zu Wartung und Reparatur. Wir verwenden seit 1991 in unserer eigenen Firma die verschiedenen kaufmännischen Programme von GDI und verfügen auch von daher über die notwendigen Erfahrungen für Installation, Formularanpassung, Beratung und Einweisung. Einsatzradius: Sachsen, Thüringen </p>
+																						</td>
+																					</tr>
+																				</table>
+																			</div>
+																			<div class="mboxbottom"><strong>Richter &amp; Schimmang</strong><br> 09353 Oberlungwitz<br> Stollberger Straße 4<br>
+																				<table width="100%" cellpadding="0" cellspacing="0" border="0">
+																					<tr>
+																						<td> Tel. </td>
+																						<td width="150"> 03723 6501-0 </td>
+																						<td> Web </td>
+																						<td><a href="http://www.rse-edv-systeme.de/produkte-und-loesungen/gdi-software/uebersicht-gdi/uebersicht-gdi.html%20" target="_blank">www.rse-edv-systeme.de</a> </td>
+																					</tr>
+																					<tr>
+																						<td> Fax </td>
+																						<td width="150"> 03723 6501-55 </td>
+																						<td> E-Mail </td>
+																						<td><a href="mailto:post@rse-edv-systeme.de" target="_blank">post@rse-edv-systeme.de</a> </td>
+																					</tr>
+																				</table>
+																			</div>
+																			<div class="noclick"></div>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr class="dealerrow1">
+																<td valign="top" class="thn1">siscom GmbH</td>
+																<td valign="top" class="thn2"><img src="/archive/2016/www.gdi.de/fileadmin/style/dealermod/standard_02.png" alt="Partner" title="Partner"></td>
+																<td valign="top" class="thn3">09120 Chemnitz<br> Rößlerstraße 30<br> 0371 510334 </td>
+																<td valign="top" class="thn4"><span class="dbut">Ansehen</span>
+																	<div class="ddetail" style="display:none;">
+																		<div class="mbox">
+																			<div class="mboxtop">
+																				<h1>siscom GmbH</h1>
+																				<strong>GDI Partner</strong><br></div>
+																			<div class="mboxmiddle">
+																				<table border="0">
+																					<tr>
+																						<td width="30" valign="top"><img src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/images/dealer/anfuehrungszeichen.gif" style="float:left;" alt=""></td>
+																						<td>
+																							<p class="bodytext">Planung-Beratung-Realisierung-Betreuung-Service für klein- und mittelständische Unternehmen rund um Hard- und Softwarelösungen, insbesondere Software für Angebot/Kalkulation/Abrechnung und Lohn-Finanzbuchhaltung aus dem Hause GDI, sowie Antiviren-, Internet- und eMail-Verkehr. EDV-Betreuung aus einer Hand und mit Kompetenz!</p>
+																						</td>
+																					</tr>
+																				</table>
+																			</div>
+																			<div class="mboxbottom"><strong>siscom GmbH</strong><br> 09120 Chemnitz<br> Rößlerstraße 30<br>
+																				<table width="100%" cellpadding="0" cellspacing="0" border="0">
+																					<tr>
+																						<td> Tel. </td>
+																						<td width="150"> 0371 510334 </td>
+																						<td> Web </td>
+																						<td><a href="http://" target="_blank"></a> </td>
+																					</tr>
+																					<tr>
+																						<td> Fax </td>
+																						<td width="150"> 0371 510335 </td>
+																						<td> E-Mail </td>
+																						<td><a href="mailto:siscom@t-online.de" target="_blank">siscom@t-online.de</a> </td>
+																					</tr>
+																				</table>
+																			</div>
+																			<div class="noclick"></div>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr class="dealerrow2">
+																<td valign="top" class="thn1">SMH-Systemlösungen</td>
+																<td valign="top" class="thn2"><img src="/archive/2016/www.gdi.de/fileadmin/style/dealermod/standard_02.png" alt="Partner" title="Partner"></td>
+																<td valign="top" class="thn3">08645 Bad Elster<br> Bergweg 6<br> 037437 539871 </td>
+																<td valign="top" class="thn4"><span class="dbut">Ansehen</span>
+																	<div class="ddetail" style="display:none;">
+																		<div class="mbox">
+																			<div class="mboxtop">
+																				<h1>SMH-Systemlösungen</h1>
+																				<strong>GDI Partner</strong><br></div>
+																			<div class="mboxmiddle">
+																				<table border="0">
+																					<tr>
+																						<td width="30" valign="top"><img src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/images/dealer/anfuehrungszeichen.gif" style="float:left;" alt=""></td>
+																						<td>
+																							<p class="bodytext">Ihr GDI-Partner in Westsachsen und Oberfranken. Als Dienstleistungsunternehmen in der IT-Branche stehen wir Ihnen als kompetenter Partner in den Bereichen Infrastruktur, Business Software und Consulting mit unseren Leistungen zur Verfügung.</p>
+																						</td>
+																					</tr>
+																				</table>
+																			</div>
+																			<div class="mboxbottom"><strong>SMH-Systemlösungen</strong><br> 08645 Bad Elster<br> Bergweg 6<br>
+																				<table width="100%" cellpadding="0" cellspacing="0" border="0">
+																					<tr>
+																						<td> Tel. </td>
+																						<td width="150"> 037437 539871 </td>
+																						<td> Web </td>
+																						<td><a href="http://www.smh-elster.de/produkte/software/gdi.html" target="_blank">www.SMH-Elster.de</a> </td>
+																					</tr>
+																					<tr>
+																						<td> Fax </td>
+																						<td width="150"> 037437 539872 </td>
+																						<td> E-Mail </td>
+																						<td><a href="mailto:matthias.hertel@smh-elster.de" target="_blank">matthias.hertel@smh-elster.de</a> </td>
+																					</tr>
+																				</table>
+																			</div>
+																			<div class="noclick"></div>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+															<tr class="dealerrow1">
+																<td valign="top" class="thn1">SYSTEC GmbH</td>
+																<td valign="top" class="thn2"><img src="/archive/2016/www.gdi.de/fileadmin/style/dealermod/standard_02.png" alt="Partner" title="Partner"></td>
+																<td valign="top" class="thn3">02739 Eibau<br> Brunnenstr. 7<br> 03586 459373 </td>
+																<td valign="top" class="thn4"><span class="dbut">Ansehen</span>
+																	<div class="ddetail" style="display:none;">
+																		<div class="mbox">
+																			<div class="mboxtop">
+																				<h1>SYSTEC GmbH</h1>
+																				<strong>GDI Partner</strong><br></div>
+																			<div class="mboxmiddle">
+																				<table border="0">
+																					<tr>
+																						<td width="30" valign="top"><img src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/images/dealer/anfuehrungszeichen.gif" style="float:left;" alt=""></td>
+																						<td>
+																							<p class="bodytext">Vertrieb, Wartung und Betreuung von Hard- u. Software.Installation und Betreuung von Netzwerken (Microsoft und Novell).Dienstleistungen u. Installation rund um das Internet einschliesslich IP-Telefonie.Schwerpunkte bei der Softwareinstallation und Betreuung sind die GDI Lohn- u. Gehaltsrechnung incl. Baulohn, GDI Finanz- u. Anlagenbuchhaltung und die GDI-Warenwirtschaftslösungen. Einen weiteren Schwerpunkt bilden Software für Handwerksbetriebe und CAD-Lösungen.Wir sind bundesweit tätig.</p>
+																						</td>
+																					</tr>
+																				</table>
+																			</div>
+																			<div class="mboxbottom"><strong>SYSTEC GmbH</strong><br> 02739 Eibau<br> Brunnenstr. 7<br>
+																				<table width="100%" cellpadding="0" cellspacing="0" border="0">
+																					<tr>
+																						<td> Tel. </td>
+																						<td width="150"> 03586 459373 </td>
+																						<td> Web </td>
+																						<td><a href="http://" target="_blank"></a> </td>
+																					</tr>
+																					<tr>
+																						<td> Fax </td>
+																						<td width="150"> 03586 786864 </td>
+																						<td> E-Mail </td>
+																						<td><a href="mailto:kammel.systec@online.de" target="_blank">kammel.systec@online.de</a> </td>
+																					</tr>
+																				</table>
+																			</div>
+																			<div class="noclick"></div>
+																		</div>
+																	</div>
+																</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="colright">
+										<div id="c7027" class="csc-default">
+											<map name="karte_klein" id="kartesmall"><area shape="poly" coords="111,225,130,236,128,227,136,225,153,236,157,232,191,249,173,254,186,282,174,275,142,272,125,279,118,280,103,274,95,283,67,268,61,251,69,254,96,234,91,230" href="/archive/2016/www.gdi.de/nc/service/fachhandelspartner-finden/plz-8.html" data-upclass="plz8"><area shape="poly" coords="106,224,93,205,79,194,65,205,35,207,30,214,45,219,13,257,19,269,42,268,44,262,56,264,64,268,58,245,67,252,91,234,88,228" href="/archive/2016/www.gdi.de/nc/service/fachhandelspartner-finden/plz-7.html" data-upclass="plz7"><area shape="poly" coords="89,176,118,147,106,145,119,123,124,120,128,136,137,137,140,143,126,158,138,169,150,169,160,180,165,200,177,216,194,226,204,235,203,246,193,247,173,238,154,228,153,235,136,222,126,225,126,231,108,218,97,204,87,200,82,192,86,181" href="/archive/2016/www.gdi.de/nc/service/fachhandelspartner-finden/plz-9.html" data-upclass="plz9"><area shape="poly" coords="52,160,64,165,81,159,84,171,80,190,68,202,58,205,34,205,29,212,9,208,5,194,36,185,52,186,62,177,46,167" href="/archive/2016/www.gdi.de/nc/service/fachhandelspartner-finden/plz-6.html" data-upclass="plz6"><area shape="poly" coords="50,112,66,108,72,122,50,154,43,168,57,178,47,184,36,182,24,186,5,191,4,180,7,162,12,162,10,138,16,135,40,131,47,119" href="/archive/2016/www.gdi.de/nc/service/fachhandelspartner-finden/plz-5.html" data-upclass="plz5"><area shape="poly" coords="57,71,74,70,79,78,67,88,66,105,46,108,48,113,43,121,40,129,16,134,20,113,27,108,34,112,47,97,42,91,45,80,53,81" href="/archive/2016/www.gdi.de/nc/service/fachhandelspartner-finden/plz-4.html" data-upclass="plz4"><area shape="poly" coords="156,109,152,85,144,78,115,88,96,76,74,87,70,104,76,123,65,143,53,156,62,162,84,155,87,171,113,148,103,146,112,129,120,119,137,112" href="/archive/2016/www.gdi.de/nc/service/fachhandelspartner-finden/plz-3.html" data-upclass="plz3"><area shape="poly" coords="140,77,122,61,124,54,131,45,131,27,116,27,112,9,86,8,94,46,84,50,75,59,75,39,55,49,57,65,65,69,73,66,86,78,97,72,110,82,116,85,131,80" href="/archive/2016/www.gdi.de/nc/service/fachhandelspartner-finden/plz-2.html" data-upclass="plz2"><area shape="poly" coords="225,163,209,120,193,128,160,111,150,119,137,115,126,124,132,136,138,134,142,145,129,157,138,167,152,168,161,179,203,162,209,153" href="/archive/2016/www.gdi.de/nc/service/fachhandelspartner-finden/plz-0.html" data-upclass="plz0"><area shape="poly" coords="209,117,203,97,195,81,181,42,157,32,138,43,126,59,143,74,157,83,157,94,159,107,185,119,194,124,200,121" href="/archive/2016/www.gdi.de/nc/service/fachhandelspartner-finden/plz-1.html" data-upclass="plz1"></map>
+											 <img src="/archive/2016/www.gdi.de/fileadmin/Template/media/karte_empty.png" width="227" height="293" usemap="#karte_klein" border="0" id="supportCenterMapSmall" class="plz0active" alt=""></div>
+									</div>
+									<div class="clearer"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="clearer"></div>
+				</div>
+			</div>
+			<div class="container" id="footer">
+				<div class="innerWrap"></div>
+			</div>
+		</div>
+		<script src="/archive/2016/www.gdi.de/fileadmin/Template/js/main.js" type="text/javascript"></script>
+		<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://piwik.gdi.de/" : "http://piwik.gdi.de/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+		<script type="text/javascript">
+try {
+  var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+  piwikTracker.trackPageView();
+  piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script>
+		<noscript><img src="http://piwik.gdi.de/piwik.php?idsite=1" style="border:0" alt=""></noscript>
+		<script type="text/javascript">
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-29081996-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+</script>
+		<script src="/archive/2016/www.gdi.de/typo3conf/ext/cl_jquery_fancybox/fancybox2/jquery.mousewheel-3.0.6.pack.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/typo3conf/ext/cl_jquery_fancybox/fancybox2/jquery.fancybox.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/fileadmin/Template/js/fancybox/jquery.fancybox.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/js/dcn.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/typo3temp/javascript_bac279cc4a.js" type="text/javascript"></script>
+	</body>
+</html>

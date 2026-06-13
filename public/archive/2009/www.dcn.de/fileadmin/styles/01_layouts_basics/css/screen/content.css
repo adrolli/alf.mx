@@ -1,0 +1,1672 @@
+HTML *
+{
+	font-size: 100.01%;
+}
+DIV.news-list-text
+{
+	padding: 0px 0px 15px;
+}
+DIV#meinedcntext
+{
+	border-right: 1px dotted #FF6001 !important;
+	float: left;
+	width: 488px;
+	margin: 10px 0px 0px 170px;
+	padding: 0px 18px;
+	height: 200px;
+	#position: relative;
+	#padding: 0px;
+	#margin: 10px 0px 0px 33px;
+}
+DIV#meinedcnfraudiv
+{
+	border-right: 1px dotted #FF6001 !important;
+	float: left;
+	margin: 10px 0px 0px 2px !important;
+	margin: 10px 0px 0px !important;
+	padding: 80px 0px 0px !important;
+	position: absolute !important;
+	#position: relative;
+}
+SPAN.schnellehilfenummern
+{
+	color: #20235C;
+	font: bold 150% sans-serif;
+}
+DIV#meinedcnfrau
+{
+	margin: 0px -10px -25px 0px;
+	padding: 0px;
+}
+SPAN#schnellehilfenummer
+{
+	color: #FF6001;
+	font: bold 120% sans-serif;
+}
+DIV#schnellehilfestartendiv
+{
+	border-right: 1px dotted #FF6001 !important;
+	float: left;
+	margin: 10px 0px 0px 22px;
+	padding: 22px 12px 31px 0px;
+	position: relative !important;
+}
+DIV#schnellehilfetext
+{
+	border-right: 1px dotted #FF6001 !important;
+	float: left;
+	width: 488px;
+	margin: 10px 0px 0px;
+	padding: 0px 18px;
+	height: 200px;
+}
+.best-of-sections A
+{
+	text-decoration: none;
+}
+.tx-sremailsubscribe-pi1-submit-image
+{
+	border: 0 none #000000;
+	background: transparent;
+}
+INPUT.tx-sremailsubscribe-pi1-submit-image
+{
+	margin: -30px 0 -2px 118px;
+}
+.rgtabs-container .tx-sremailsubscribe-pi1-text
+{
+	width: 135px;
+}
+.tx-sremailsubscribe-pi1-text
+{
+	border: 0;
+	border-bottom: 1px dotted #F16207;
+	color: #20235C;
+}
+#tx-sremailsubscribe-pi1-title
+{
+	border-bottom: 1px dotted #F16207;
+	width: 142px;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.rgtabs-container .tx-sremailsubscribe-pi1-submit
+{
+	width: 145px;
+}
+INPUT.tx-sremailsubscribe-pi1-submit
+{
+	border: 0;
+	background: transparent;
+	font-size: 70%;
+	text-align: left;
+	background: transparent url(/archive/2009/www.dcn.de/fileadmin/styles/dcnimg/smallnupsi.gif) no-repeat 111px 4px;
+	color: #F26308 !important;
+	font-weight: bold;
+	margin: 0 0 0 -2px;
+}
+DIV.rgtabs-container DIV.dcn-newsletter
+{
+	margin: 0 0 14px 708px;
+}
+#rssandso A
+{
+	text-decoration: none;
+	font: 9pt sans-serif;
+}
+DIV#rssline
+{
+	float: left;
+	padding: 0px 0 0 9px;
+}
+DIV#rssandso
+{
+	padding: 7px 0 0 1px;
+	margin: 0 0 0 751px;
+}
+.rgtabs-container H1
+{
+	font-size: 130%;
+	color: #162C78;
+	padding: 10px 0 0;
+	margin: 0 0 0 708px;
+}
+.newsintabs-latest-teasertext H3 A
+{
+	color: #172D79;
+	font-weight: 600;
+}
+.newsintabs-latest-teasertext A
+{
+	text-decoration: none;
+	color: #434343;
+	font: normal 90% sans-serif;
+}
+/*FrauenZeiger*/
+.frauenzeiger
+{
+	position: relative;
+	float: left;
+	height: 200px;
+	width: 169px;
+	margin-top: 10px;
+	border-right: 1px dotted #FF6001;
+}
+.frauenzeigerimg
+{
+	position: relative;
+	/*+placement:shift 73px 42px;*/
+	position: relative;
+	left: 73px;
+	top: 42px;
+}
+/*RGTabs*/
+.rgtabs-container
+{
+	margin: 0px 0px 0px -2px;
+}
+.newsintabs-latest-container
+{
+	float: left;
+	position: relative;
+	left: 0;
+	/*[disabled]width:100%;*/
+	margin: 10px 0 0;
+	padding: 0 0 0 0px;
+}
+.newsintabs-latest-item
+{
+	width: 154px;
+	text-align: left;
+	margin: 0;
+	float: left;
+	border-right: 1px dotted #FF6001;
+	padding: 0 10px;
+	height: 200px;
+	position: relative;
+}
+.newsintabs-latest-title A
+{
+	text-decoration: none;
+}
+.REboxGreenContent FORM
+{
+	margin: 0px 0px 0px -5px;
+}
+DIV#up.pics
+{
+	margin: 0px 9px 0px 11px;
+	color: #FFFFFF;
+	height: 4px;
+	padding: 58px 56px 56px;
+}
+H4.align-center
+{
+	text-align: center;
+	margin-top: -15px;
+}
+.csc-textpic-intext-left UL
+{
+	padding-left: 52px !important;
+}
+.REboxGreenContent P
+{
+}
+.REboxGreenContent P
+{
+	padding: 0px 6px 2px;
+}
+.REboxGreenContent H1
+{
+	background: url(/archive/2009/www.dcn.de/fileadmin/styles/dcnimg/boxbg.jpg);
+	color: #FFFFFF;
+	font-size: 100%;
+	padding: 2.5px;
+}
+.REboxGreen
+{
+	background: #C5C6D6;
+	width: 90%;
+}
+BODY
+{
+	font-family: sans-serif, Helvetica, Tahoma, "Trebuchet MS", Verdana, Arial;
+	font-size: 13px;
+	color: #444;
+}
+DIV.floatbox IFRAME
+{
+	overflow: hidden;
+}
+.csc-menu-1 LI A
+{
+	margin: 0 -5em 0 5em;
+}
+#nav_main LI
+{
+	position: relative;
+	z-index: 103 !important;
+}
+#dcn_navplace
+{
+	position: relative;
+	height: 0px;
+	width: 100%;
+	z-index: 100 !important;
+	padding-top: 28px;
+}
+.dcn_navover
+{
+	border-right: 1px solid #555887;
+	border-left: 1px solid #555887;
+	background-color: #ABBBCA;
+	margin-top: -28px;
+	padding-right: 1px;
+	height: 28px;
+	padding-bottom: 1px;
+	z-index: 106;
+	position: absolute;
+}
+DIV.dcn_navout_top
+{
+	height: 20px;
+	position: relative;
+	margin-top: -20px;
+}
+DIV.dcn_navout
+{
+	z-index: -1;
+	width: 440px;
+	height: 300px;
+	position: absolute;
+	margin-top: 4px;
+	margin-left: -20px;
+}
+#dcn_navplace1
+{
+	float: left;
+	position: absolute;
+	display: none;
+}
+#dcn_navplace2
+{
+	display: none;
+	float: left;
+	position: absolute;
+	margin-left: 73px;
+}
+#dcn_navplace2 .dcn_navover
+{
+	width: 48px;
+}
+#dcn_navplace3
+{
+	float: left;
+	position: absolute;
+	display: none;
+	margin-left: 124px;
+}
+#dcn_navplace3 .dcn_navover
+{
+	width: 116px;
+}
+#dcn_navplace4
+{
+	display: none;
+	float: left;
+	position: absolute;
+	margin-left: 241px;
+}
+#dcn_navplace4 .dcn_navover
+{
+	width: 90px;
+}
+#dcn_navplace5
+{
+	display: none;
+	float: left;
+	position: absolute;
+	margin-left: 333px;
+}
+#dcn_navplace5 .dcn_navover
+{
+	width: 86px;
+}
+#dcn_navplace6
+{
+	display: none;
+	float: left;
+	position: absolute;
+	margin-left: 420px;
+}
+#dcn_navplace6 .dcn_navover
+{
+	width: 63px;
+}
+#dcn_navplace7
+{
+	display: none;
+	float: left;
+	position: absolute;
+	margin-left: 484px;
+}
+#dcn_navplace7 .dcn_navover
+{
+	width: 63px;
+}
+#dcn_navplace8
+{
+	display: none;
+	float: left;
+	position: absolute;
+}
+#dcn_navplace9
+{
+	display: none;
+	float: left;
+	position: absolute;
+}
+#dcn_navplace10
+{
+	display: none;
+	float: left;
+	position: absolute;
+}
+#dcn_navplace A
+{
+	text-decoration: none;
+}
+.dcn_navnupsi
+{
+	padding: 0px 9px 0px 0px;
+	background: transparent url(/archive/2009/www.dcn.de/fileadmin/styles/dcnimg/smallnupsi.gif) no-repeat right;
+	color: #F26308 !important;
+	font-weight: bold;
+}
+DIV.dcn_navroot
+{
+	position: relative;
+	overflow: auto;
+	background: url(/archive/2009/www.dcn.de/fileadmin/styles/dcnimg/navcol2bg.jpg);
+	width: 400px;
+}
+.dcn_navcol2 H1
+{
+	font-size: 11px;
+	color: #FFFFFF;
+}
+.dcn_navcol2 P
+{
+	font-size: 11px;
+	color: #FFFFFF;
+}
+.dcn_navcol2 P A
+{
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+DIV.dcn_navcol1 UL LI
+{
+	margin: 0px 0px 0px -124px;
+	list-style: none;
+}
+DIV.dcn_navcol1
+{
+	width: 145px;
+	float: left;
+	background: url(/archive/2009/www.dcn.de/fileadmin/styles/dcnimg/navcol1bg.jpg) -200px;
+	margin: 1px;
+	height: 275px;
+	padding: 7px 0px 0px;
+}
+DIV.dcn_navcol2
+{
+	background: url(/archive/2009/www.dcn.de/fileadmin/styles/dcnimg/navcol2bg.jpg);
+	float: right;
+	width: 233px;
+	padding: 10px;
+}
+.dcnnavcol2 A:focus, A:hover, A:active
+{
+	color: #F26308 !important;
+}
+.dcn_navruler
+{
+	background: transparent;
+	margin: 0 0 1.3em;
+	padding: 0 0 0.5em;
+	border: 0;
+	border-bottom: 1px solid #686997;
+}
+H1, H2, H3, H4, H5, H6
+{
+	font-weight: bold;
+	color: #FF6600;
+	margin: 0;
+}
+.news-single-item H4
+{
+	color: #FF6600;
+	font-size: 110%;
+}
+H1
+{
+	font-size: 150%;
+}
+H2
+{
+	font-size: 140%;
+	color: #182E7A;
+}
+H3
+{
+	font-size: 130%;
+}
+H4
+{
+	color: #182E7A;
+	font-size: 120%;
+	padding: 8px 0px 10px;
+}
+H5
+{
+	font-size: 110%;
+}
+H6
+{
+	font-size: 110%;
+	font-style: italic;
+}
+H1.G
+{
+	border: 0;
+	height: 30px;
+	text-indent: -999em;
+}
+H2.G
+{
+	border: 0;
+	height: 30px;
+	text-indent: -999em;
+}
+H3.G
+{
+	border: 0;
+	height: 30px;
+	text-indent: -999em;
+}
+H4.G
+{
+	border: 0;
+	height: 30px;
+	text-indent: -999em;
+}
+H5.G
+{
+	border: 0;
+	height: 30px;
+	text-indent: -999em;
+}
+P
+{
+	line-height: 1.5em;
+	margin: 0 0 1em;
+}
+UL, OL, DL
+{
+	line-height: 1.5em;
+	margin: 0 0em 1em 5em;
+}
+.floatbox LI
+{
+	margin-left: -0.5em;
+	line-height: 1.5em;
+	list-style: outside url(/archive/2009/www.dcn.de/fileadmin/styles/dcnimg/listyle.gif);
+}
+#meinedcntext UL
+{
+	margin: 0 0 0 50px;
+}
+.best-of-sections LI
+{
+	list-style: url(/archive/2009/www.dcn.de/fileadmin/styles/dcnimg/listyle.gif);
+}
+.best-of-sections UL
+{
+	margin: 13px 0 0 733px;
+}
+.csc-textpic-text
+{
+}
+DT
+{
+	font-weight: bold;
+}
+DD
+{
+	margin: 0 0 1em 2em;
+}
+CITE, BLOCKQUOTE
+{
+	font-style: italic;
+	font: italic 90% sans-serif;
+/*DCN SCHNELLER FIX*/
+	margin-top: -3px !important;
+	padding-right: 10px;
+	padding-left: 687px;
+}
+BLOCKQUOTE
+{
+	margin: 0 0 1em 1.5em;
+}
+STRONG, B
+{
+	font-weight: bold;
+}
+EM, I
+{
+	font-style: italic;
+}
+PRE, CODE
+{
+	font-family: monospace;
+	font-size: 1.1em;
+}
+ACRONYM, ABBR
+{
+	letter-spacing: 0.07em;
+	border-bottom: 0.1em dashed #C00;
+	cursor: help;
+}
+.note
+{
+	background: #DFD;
+	padding: 1em;
+	border-bottom: 1px dotted #BDB;
+	border-bottom: 1px dotted #DBB;
+}
+.important
+{
+	background: #FFD;
+	padding: 1em;
+	border-bottom: 1px dotted #DDB;
+	border-bottom: 1px dotted #DBB;
+}
+.warning
+{
+	background: #FDD;
+	padding: 1em;
+	border-bottom: 1px dotted #DBB;
+	border-bottom: 1px dotted #DBB;
+}
+.float_left
+{
+	float: left;
+	display: inline;
+	margin-right: 1em;
+	margin-bottom: 0.15em;
+}
+.float_right
+{
+	float: right;
+	display: inline;
+	margin-left: 1em;
+	margin-bottom: 0.15em;
+}
+A
+{
+	color: #182E7A;
+	text-decoration: underline;
+}
+DIV.news-list-image
+{
+	float: right;
+	margin: -41px 0px -37px 0;
+	padding: 0px 0px 43px;
+}
+A:focus, A:hover, A:active
+{
+	color: #222;
+	text-decoration: none;
+}
+#topnav A
+{
+	color: #CCC;
+	font-weight: normal;
+	background: transparent;
+	text-decoration: none;
+}
+#topnav A:focus, #topnav A:hover, #topnav A:active
+{
+	color: #FFF;
+	text-decoration: underline;
+	background-color: transparent;
+}
+#footer A
+{
+	color: #FFFFFF;
+	background: transparent;
+	font-weight: bold;
+	text-decoration: none;
+}
+#footer A:focus, #footer A:hover, #footer A:active
+{
+	color: #FFFFFF;
+	background-color: transparent;
+	text-decoration: underline;
+}
+TABLE
+{
+	width: auto;
+	border-collapse: collapse;
+	margin-bottom: 0.5em;
+}
+TABLE.full
+{
+	width: 100%;
+}
+TABLE.fixed
+{
+	table-layout: fixed;
+}
+TH, TD
+{
+	padding: 0.5em;
+}
+THEAD TH
+{
+	background: #444;
+	color: #FFF;
+}
+TBODY TH
+{
+	background: #CCC;
+	color: #333;
+}
+TBODY TH.sub
+{
+	background: #DDD;
+	color: #333;
+}
+TABLE.typo3-adminPanel
+{
+	text-align: left;
+	font-size: 120%;
+	margin: 1em 0 0;
+}
+TABLE.typo3-adminPanel TD
+{
+	padding: 0.1em 0.1em 0.1em 0;
+}
+TABLE.typo3-adminPanel SELECT
+{
+	font-size: 0.6em;
+}
+TABLE.typo3-adminPanel INPUT
+{
+	font-size: 0.6em;
+}
+HR
+{
+	color: #FFF;
+	background: transparent;
+	margin: 0 0 0.5em;
+	padding: 0 0 0.5em;
+	border: 0;
+	border-bottom: 1px solid #EEE;
+}
+#col1_content FORM SELECT
+{
+	margin-bottom: 1em;
+	width: 100%;
+}
+TABLE.contenttable
+{
+	font-size: 0.8em;
+	width: 100%;
+	margin: 0 0 1em;
+	border-collapse: collapse;
+	empty-cells: show;
+}
+TABLE.contenttable CAPTION
+{
+	text-align: left;
+	font-weight: bold;
+	color: #888;
+	margin-bottom: 0.2em;
+}
+TABLE.contenttable TH
+{
+	height: 2em;
+	background: #FFFFFF url(/archive/2009/www.dcn.de/fileadmin/styles/dcnimg/boxbg.jpg) repeat;
+	color: #21245D;
+	padding: 2px 7px;
+	border-left: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+	border-top: 2px solid #FFF;
+	border-bottom: 2px solid #FFF;
+}
+TABLE.contenttable TR.tr-odd
+{
+	background: #F1F2FF;
+}
+TABLE.contenttable TR.tr-even
+{
+	background: #F7F6FC;
+}
+TABLE.contenttable TD
+{
+	height: 3em;
+	padding: 2px 7px;
+	border-left: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+	border-top: 2px solid #FFF;
+	border-bottom: 2px solid #FFF;
+	text-align: left;
+	font-weight: normal;
+}
+.tx-newloginbox-pi1 THEAD TH, .tx-newloginbox-pi1 TH
+{
+	background: none;
+	padding: 0;
+	color: #222;
+}
+.tx-newloginbox-pi1 INPUT
+{
+	margin: 0;
+}
+.csc-textpicHeader H3
+{
+	margin: 0em 0 0.3em;
+	padding-top: 0;
+}
+INPUT, TEXTAREA
+{
+	margin-left: 1em;
+	padding: 2px;
+	width: auto;
+	font: 1em Verdana, Arial, Helvetica, Sans-Serif;
+	border: 1px solid #CCC;
+	background: #FAFAFA;
+	color: #777;
+}
+INPUT[type=text]:focus, TEXTAREA:focus
+{
+	background: #F0F0F0;
+	color: #333;
+	border-color: #666;
+}
+P.csc-linkToTop
+{
+	text-align: right;
+	margin: 0;
+}
+P.csc-form-label-req
+{
+	font-weight: bold;
+}
+.csc-caption
+{
+	font-size: 0.9em;
+	background-color: #E0E7F5;
+	padding: 2px;
+}
+DD.csc-textpic-caption
+{
+	/*[disabled]font-style:italic;*/
+	font-size: 90%;
+	background-color: #FEFEFE;
+	padding: 0;
+}
+.tx-felogin-pi1
+{
+}
+.tx-felogin-pi1 FIELDSET
+{
+	margin: 1em 0 0;
+	background: #EEE;
+	padding: 1em;
+}
+.tx-felogin-pi1 FIELDSET LEGEND
+{
+	display: none;
+}
+.tx-felogin-pi1 FIELDSET DIV
+{
+	clear: both;
+	margin: 0 0 0.5em;
+}
+.tx-felogin-pi1 FIELDSET DIV LABEL
+{
+	width: 20%;
+	display: block;
+	float: left;
+}
+.tx-felogin-pi1 FIELDSET DIV INPUT
+{
+	width: 40%;
+	margin: 0;
+}
+.tx-ttnews-browsebox
+{
+	text-align: center;
+	padding: 0;
+	margin: 1.2em 0 1em;
+	padding: 1px;
+	border: 1px solid #CCD;
+	background: #F0F0F4;
+}
+.tx-ttnews-browsebox A, .tx-ttnews-browsebox STRONG
+{
+	padding: 0 0.4em 0.4em 0;
+	margin: 0;
+	background: transparent;
+}
+.news-latest-item
+{
+	margin-bottom: 1em;
+}
+.news-latest-item H3
+{
+	padding-top: 0;
+	margin-top: 0;
+}
+.news-latest-item H3 A
+{
+	text-decoration: underline;
+}
+.news-latest-item H3 A:hover
+{
+	background: transparent;
+}
+.news-latest-item IMG
+{
+	padding-right: 1em;
+	padding-top: 0.5em;
+	float: left;
+}
+.news-latest-morelink
+{
+	padding: 1px;
+	border: 1px solid #CCD;
+	background: #F0F0F4;
+	text-align: center;
+}
+.news-list-item
+{
+	margin-bottom: 1em;
+}
+.news-list-item H3
+{
+	padding: 0px 0px 10px;
+	margin-top: 0;
+}
+.news-list-item H3 A
+{
+	text-decoration: underline;
+}
+.news-list-item H3 A:hover
+{
+	background: transparent;
+}
+.news-list-item H3 SPAN.news-list-date
+{
+	color: #AAA;
+	font-weight: normal;
+	font-size: 0.6em;
+}
+.news-list-morelink
+{
+	padding: 1px;
+	border: 1px solid #CCD;
+	background: #F0F0F4;
+	text-align: center;
+	clear: both;
+}
+.news-list-morelink A
+{
+	color: #669;
+}
+.news-list-morelink A:hover
+{
+	background: transparent;
+}
+.news-list-category
+{
+	color: #AAA;
+}
+.news-single-item H3
+{
+	margin-bottom: 1em;
+	margin-top: 1em;
+	color: #000;
+	padding: 0.5em;
+	background: #F0F0F4;
+	border-left: 8px solid #E0E7F5;
+}
+.news-single-img
+{
+	padding-right: 0px;
+	float: right;
+	margin: -1px 0px 0px;
+}
+.news-single-img P
+{
+	padding: 0;
+	margin: 0;
+}
+.news-single-timedata
+{
+	color: #AAA;
+	margin-bottom: 1em;
+}
+.news-single-additional-info
+{
+}
+.news-single-additional-info DD
+{
+	margin-top: -1em;
+}
+.news-single-additional-info DT
+{
+	margin-bottom: 1.4em;
+	color: #AAA;
+}
+.news-catmenu
+{
+	font-size: 0.8em;
+	margin-top: 2em;
+	padding: 1em;
+	background: #EEE;
+	border: 1px dotted #000000;
+}
+.news-catmenu A
+{
+	display: inline;
+	padding-left: 2px;
+}
+.news-catmenu A:hover
+{
+	background: transparent;
+	font-style: italic;
+	font-weight: bold;
+}
+.news-catmenu .news-catmenu-NO
+{
+	height: 16px;
+}
+P.news-catmenu-header
+{
+	line-height: 1em;
+	margin: 0;
+}
+.tx-indexedsearch .tx-indexedsearch-searchbox INPUT.tx-indexedsearch-searchbox-button
+{
+	width: 100px;
+}
+.tx-indexedsearch .tx-indexedsearch-searchbox INPUT.tx-indexedsearch-searchbox-sword
+{
+	width: 150px;
+}
+.tx-indexedsearch .tx-indexedsearch-whatis P .tx-indexedsearch-sw
+{
+	font-weight: bold;
+	font-style: italic;
+}
+.tx-indexedsearch .tx-indexedsearch-whatis
+{
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.tx-indexedsearch P.tx-indexedsearch-noresults
+{
+	text-align: center;
+	font-weight: bold;
+}
+.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-title
+{
+	background: #EEEEEE;
+}
+.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-title P
+{
+	font-weight: bold;
+}
+.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-title P.tx-indexedsearch-percent
+{
+	font-weight: normal;
+}
+.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-descr P
+{
+	font-style: italic;
+}
+.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-descr P .tx-indexedsearch-redMarkup
+{
+}
+.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-info
+{
+	background: #E0E7F5;
+}
+.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-secHead
+{
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-secHead H2
+{
+	color: #006699;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background: transparent;
+}
+.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-secHead TABLE
+{
+	background: #CCCCCC;
+}
+.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-secHead TD
+{
+	vertical-align: middle;
+}
+.tx-indexedsearch .tx-indexedsearch-res .noResume
+{
+	color: #666666;
+}
+.tx-indexedsearch-sw, .csc-sword, .tx-indexedsearch-redMarkup
+{
+	background: #FEC216;
+}
+.tx-indexedsearch
+{
+}
+.tx-indexedsearch .searchbox-tmpl-css FORM FIELDSET LEGEND
+{
+	display: none;
+}
+.tx-indexedsearch .searchbox-tmpl-css FORM FIELDSET .tx-indexedsearch-form
+{
+	margin: 0 0 0.5em;
+	clear: both;
+}
+.tx-indexedsearch .searchbox-tmpl-css FORM FIELDSET .tx-indexedsearch-form LABEL
+{
+	display: block;
+	float: left;
+	width: 25%;
+}
+.tx-indexedsearch .searchbox-tmpl-css FORM FIELDSET .tx-indexedsearch-form INPUT
+{
+	margin: 0;
+}
+.tx-indexedsearch .searchbox-tmpl-css FORM FIELDSET .tx-indexedsearch-search-for
+{
+	margin: 0 0 0.5em;
+	clear: both;
+}
+.tx-indexedsearch .searchbox-tmpl-css FORM FIELDSET .tx-indexedsearch-search-for LABEL
+{
+	display: block;
+	float: left;
+	width: 25%;
+}
+.tx-indexedsearch .searchbox-tmpl-css FORM FIELDSET .tx-indexedsearch-search-for SELECT
+{
+	margin: 0;
+}
+.tx-indexedsearch .searchbox-tmpl-css FORM FIELDSET .tx-indexedsearch-search-select-section
+{
+	margin: 0 0 0.5em;
+	clear: both;
+}
+.tx-indexedsearch .searchbox-tmpl-css FORM FIELDSET .tx-indexedsearch-search-select-section LABEL
+{
+	display: block;
+	float: left;
+	width: 25%;
+}
+.tx-indexedsearch .searchbox-tmpl-css FORM FIELDSET .tx-indexedsearch-search-select-section SELECT
+{
+	margin: 0;
+}
+.tx-indexedsearch .searchbox-tmpl-css FORM FIELDSET .tx-indexedsearch-search-select-results
+{
+	margin: 0 0 0.5em;
+	clear: both;
+}
+.tx-indexedsearch .searchbox-tmpl-css FORM FIELDSET .tx-indexedsearch-search-select-results LABEL
+{
+	display: block;
+	float: left;
+	width: 25%;
+}
+.tx-indexedsearch .searchbox-tmpl-css FORM FIELDSET .tx-indexedsearch-search-select-results SELECT
+{
+	margin: 0;
+}
+.tx-indexedsearch .searchbox-tmpl-css FORM FIELDSET .tx-indexedsearch-search-submit
+{
+	clear: both;
+}
+.tx-indexedsearch .searchbox-tmpl-css FORM FIELDSET .tx-indexedsearch-search-submit INPUT
+{
+	margin: 0 0 0 25%;
+}
+.tx-indexedsearch .tx-indexedsearch-browsebox
+{
+	background: #EEE;
+}
+.tx-indexedsearch .res-tmpl-css H3
+{
+	font-size: 105%;
+	clear: both;
+}
+.tx-indexedsearch .res-tmpl-css .tx-indexedsearch-result-number
+{
+	display: none;
+}
+.tx-indexedsearch .res-tmpl-css.tx-indexedsearch-res .tx-indexedsearch-title
+{
+	background: transparent;
+}
+.tx-indexedsearch .res-tmpl-css.tx-indexedsearch-res .percent-tmpl-css
+{
+	color: #AAA;
+}
+.tx-indexedsearch .res-tmpl-css P.tx-indexedsearch-descr
+{
+	/*[disabled]font-size:0.8em;*/
+	/*[disabled]background:#FFF url(/archive/2009/www.dcn.de/fileadmin/styles/01_layouts_basics/img/icons/sprechblase.gif) no-repeat 10px 10px;*/
+	/*[disabled]color:#187BA2;*/
+	padding: 1em 1em 0em 2em;
+	/*[disabled]border:1px solid #187BA2;*/
+	font-style: italic;
+}
+.tx-indexedsearch .res-tmpl-css DL.info-tmpl-css
+{
+	font-size: 0.8em;
+	background: transparent;
+	font-weight: normal;
+	margin: 0 0 4em;
+}
+.tx-indexedsearch .res-tmpl-css DT
+{
+	float: left;
+}
+.tx-indexedsearch .res-tmpl-css DD
+{
+	float: left;
+	margin: 0;
+}
+.tx-indexedsearch .tx-indexedsearch-browsebox UL.browsebox
+{
+	list-style: none;
+	background: #FFF;
+	margin: 0 0 3em;
+}
+.tx-indexedsearch .tx-indexedsearch-browsebox UL.browsebox LI
+{
+	font-size: 1em;
+	float: left;
+	margin: -10px 12px 12px;
+}
+.tx-dropdownsitemap-pi1 A
+{
+	font-weight: bold;
+}
+.tx-dropdownsitemap-pi1 LI.open OL
+{
+	display: block;
+}
+.tx-dropdownsitemap-pi1 LI.closed OL
+{
+	display: none;
+}
+.tx-dropdownsitemap-pi1 LI.open UL
+{
+	display: block;
+}
+.tx-dropdownsitemap-pi1 LI.closed UL
+{
+	display: none;
+}
+.tx-dropdownsitemap-pi1 DIV
+{
+	border: 1px solid #CCD;
+	background: #F0F0F4;
+	padding: 2px;
+	margin-bottom: 5px;
+}
+.tx-dropdownsitemap-pi1 DIV.level_2
+{
+	background: #FFFFFF;
+}
+.tx-dropdownsitemap-pi1 DIV.level_2 A
+{
+	font-weight: normal;
+}
+.tx-dropdownsitemap-pi1 DIV.level_3
+{
+	background: #F0F0F4;
+}
+.tx-dropdownsitemap-pi1 DIV.level_4
+{
+	background: #FFFFFF;
+}
+.tx-dropdownsitemap-pi1 DIV.level_5
+{
+	background: #F0F0F4;
+}
+.tx-dropdownsitemap-pi1 DIV.expAll
+{
+	text-align: center;
+	border: 1px solid #CCD;
+	background: #F0F0F4;
+}
+.tx-dropdownsitemap-pi1 IMG
+{
+	margin-right: 0.5em;
+}
+.tx-dropdownsitemap-pi1 A:hover
+{
+	background: transparent;
+}
+.csc-sitemap
+{
+}
+.csc-sitemap UL
+{
+	list-style: none;
+	margin: 0;
+}
+.csc-sitemap LI
+{
+	margin: 0;
+	background: transparent url(/archive/2009/www.dcn.de/fileadmin/styles/01_layouts_basics/img/sitemap-first-level.gif) no-repeat left top;
+	padding: 0 0 0 20px;
+}
+.csc-sitemap LI UL LI
+{
+	background: transparent url(/archive/2009/www.dcn.de/fileadmin/styles/01_layouts_basics/img/sitemap.gif) no-repeat left top;
+}
+.csc-sitemap LI A
+{
+	border: 1px solid #4D87C7;
+	margin: 0 0 5px;
+	padding: 0 0 0 7px;
+	display: block;
+	background: #4D87C7;
+	text-decoration: none;
+	color: #222;
+}
+.csc-sitemap LI UL LI A
+{
+	border: none;
+	border-bottom: 1px solid #4D87C7;
+	margin: 0 0 5px;
+	padding: 0 0 0 7px;
+	display: block;
+	background: transparent;
+	text-decoration: none;
+	color: #222;
+}
+.csc-sitemap LI A:hover
+{
+	background: #EEE;
+	border: 1px solid #EEE;
+}
+.csc-sitemap LI UL LI A:hover
+{
+	border: none;
+	border-bottom: 1px solid #EEE;
+}
+FORM#mailform FIELDSET
+{
+	border: 1px solid #CCC;
+	padding: 1em;
+	background: #FAFAFA;
+}
+FORM#mailform FIELDSET SPAN.csc-mailform-radio FIELDSET
+{
+	margin: 1em 2em 1em 1em;
+}
+FORM#mailform FIELDSET SPAN.csc-mailform-radio FIELDSET INPUT
+{
+	width: auto;
+	margin: 0 0.3em 0 0;
+	border: 0;
+}
+FORM#mailform FIELDSET SPAN.csc-mailform-radio FIELDSET LABEL
+{
+	float: none;
+}
+.csc-mailform-field
+{
+	clear: both;
+	margin-bottom: 0.8em;
+}
+FIELDSET.csc-mailform .csc-mailform-field LABEL
+{
+	width: 10em;
+	float: left;
+	text-align: right;
+	background: #FAFAFA;
+	padding: 2px;
+}
+FIELDSET.csc-mailform .csc-mailform-field INPUT, FIELDSET.csc-mailform .csc-mailform-field SELECT, FIELDSET.csc-mailform .csc-mailform-field TEXTAREA
+{
+	width: 20em;
+}
+FIELDSET.csc-mailform .csc-mailform-field INPUT.csc-mailform-check
+{
+	width: auto;
+	border: 0;
+	margin-top: 0.2em;
+}
+FIELDSET.csc-mailform .csc-mailform-field TEXTAREA
+{
+	font-size: 1em;
+}
+FIELDSET.csc-mailform LABEL SPAN
+{
+	color: #FF0000;
+}
+INPUT#mailformformtype_mail
+{
+	margin-left: 0em;
+	background: #FAFAFA;
+	cursor: pointer;
+}
+INPUT#mailformformtype_mail:hover
+{
+	background: #F0F0F0;
+}
+.csc-mailform-field SELECT
+{
+	margin-left: 1em;
+	border: 1px solid #CCC;
+	background: #FAFAFA;
+	color: #777;
+}
+TABLE.csc-uploads
+{
+}
+TABLE.csc-uploads TD
+{
+	padding-right: 0.5em;
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+	vertical-align: top;
+	border-bottom: 1px solid #CCC;
+}
+TD.csc-uploads-fileSize
+{
+	width: 5em;
+	text-align: right;
+	padding: 0;
+	font-style: italic;
+}
+TD.csc-uploads-icon
+{
+}
+TD.csc-uploads-fileName P
+{
+	margin: 0;
+}
+TD.csc-uploads-fileName P.csc-uploads-description
+{
+	margin: 0;
+	font-size: 90%;
+	background-color: #DFD;
+	padding: 0.3em;
+	font-style: italic;
+}
+DIV.flexi
+{
+	overflow: hidden;
+	display: block;
+	clear: both;
+	width: 100%;
+	height: 1%;
+}
+DIV.flexi DIV.left
+{
+	margin-right: 5px;
+	display: block;
+	overflow: hidden;
+	float: left;
+}
+DIV.flexi DIV.center
+{
+	margin-right: 5px;
+	margin-left: 5px;
+	display: block;
+	overflow: hidden;
+	float: left;
+}
+DIV.flexi DIV.right
+{
+	margin-left: 5px;
+	display: block;
+	overflow: hidden;
+	float: left;
+}
+DIV.csc-textpic-caption-c .csc-textpic-caption
+{
+	text-align: center;
+}
+DIV.csc-textpic-caption-r .csc-textpic-caption
+{
+	text-align: right;
+}
+DIV.csc-textpic-caption-l .csc-textpic-caption
+{
+	text-align: left;
+}
+DIV.csc-textpic DIV.csc-textpic-imagecolumn
+{
+	float: left;
+	display: inline;
+}
+DIV.csc-textpic-border DIV.csc-textpic-imagewrap .csc-textpic-image IMG
+{
+	border: 2px solid #000000;
+	padding: 0px;
+}
+DIV.csc-textpic-imagewrap
+{
+	padding: 0;
+}
+DIV.csc-textpic IMG
+{
+	border: none;
+}
+DIV.csc-textpic DIV.csc-textpic-imagewrap DIV.csc-textpic-image
+{
+	float: left;
+}
+DIV.csc-textpic DIV.csc-textpic-imagewrap UL
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+DIV.csc-textpic DIV.csc-textpic-imagewrap UL LI
+{
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+DIV.csc-textpic DIV.csc-textpic-imagewrap DL.csc-textpic-image
+{
+	float: left;
+}
+DIV.csc-textpic DIV.csc-textpic-imagewrap DL.csc-textpic-image DT
+{
+	float: none;
+}
+DIV.csc-textpic DIV.csc-textpic-imagewrap DL.csc-textpic-image DD
+{
+	float: none;
+}
+DIV.csc-textpic DIV.csc-textpic-imagewrap DL.csc-textpic-image DD IMG
+{
+	border: none;
+}
+DL.csc-textpic-image
+{
+	margin: 0;
+}
+DL.csc-textpic-image DT
+{
+	margin: 0;
+	display: inline;
+}
+DL.csc-textpic-image DD
+{
+	margin: 0;
+}
+DIV.csc-textpic-clear
+{
+	clear: both;
+}
+DIV.csc-textpic-left DIV.csc-textpic-imagewrap .csc-textpic-image, DIV.csc-textpic-intext-left-nowrap DIV.csc-textpic-imagewrap .csc-textpic-image, DIV.csc-textpic-intext-left DIV.csc-textpic-imagewrap .csc-textpic-image
+{
+	display: inline;
+/*IE fix for double-margin bug*/
+	margin-right: 10px;
+}
+DIV.csc-textpic-right DIV.csc-textpic-imagewrap .csc-textpic-image, DIV.csc-textpic-intext-right-nowrap DIV.csc-textpic-imagewrap .csc-textpic-image, DIV.csc-textpic-intext-right DIV.csc-textpic-imagewrap .csc-textpic-image
+{
+	display: inline;
+/*IE fix for double-margin bug*/
+	margin-left: 10px;
+}
+DIV.csc-textpic-center DIV.csc-textpic-imagewrap .csc-textpic-image
+{
+	display: inline;
+/*IE fix for double-margin bug*/
+	margin-left: 10px;
+}
+DIV.csc-textpic DIV.csc-textpic-imagewrap .csc-textpic-image .csc-textpic-caption
+{
+	margin: 0;
+}
+DIV.csc-textpic DIV.csc-textpic-imagewrap .csc-textpic-image IMG
+{
+	margin: 0px 10px 0px 0px !important;
+	padding: 0 10px 0 -10px !important;
+}
+DIV.csc-textpic DIV.csc-textpic-imagewrap .csc-textpic-image
+{
+	margin-bottom: 5px;
+}
+DIV.csc-textpic-equalheight DIV.csc-textpic-imagerow
+{
+	margin-bottom: 5px;
+	display: block;
+}
+DIV.csc-textpic DIV.csc-textpic-imagerow
+{
+	clear: both;
+}
+DIV.csc-textpic DIV.csc-textpic-imagewrap .csc-textpic-firstcol
+{
+	margin-left: 0px !important;
+}
+DIV.csc-textpic DIV.csc-textpic-imagewrap .csc-textpic-lastcol
+{
+	margin-right: 0px !important;
+}
+DIV.csc-textpic-intext-left DIV.csc-textpic-imagewrap, DIV.csc-textpic-intext-left-nowrap DIV.csc-textpic-imagewrap
+{
+	margin-right: 10px !important;
+}
+DIV.csc-textpic-intext-right DIV.csc-textpic-imagewrap, DIV.csc-textpic-intext-right-nowrap DIV.csc-textpic-imagewrap
+{
+	margin-left: 10px !important;
+}
+DIV.csc-textpic-above DIV.csc-textpic-text
+{
+	clear: both;
+}
+DIV.csc-textpic-center
+{
+	text-align: center;
+/*IE-hack*/
+}
+DIV.csc-textpic-center DIV.csc-textpic-imagewrap
+{
+	margin: 0 auto;
+}
+DIV.csc-textpic-center DIV.csc-textpic-imagewrap .csc-textpic-image
+{
+	text-align: left;
+/*Remove IE-hack*/
+}
+DIV.csc-textpic-center DIV.csc-textpic-text
+{
+	text-align: left;
+/*Remove IE-hack*/
+}
+DIV.csc-textpic-right DIV.csc-textpic-imagewrap
+{
+	float: right;
+}
+DIV.csc-textpic-right DIV.csc-textpic-text
+{
+	clear: right;
+}
+DIV.csc-textpic-left DIV.csc-textpic-imagewrap
+{
+	float: left;
+}
+DIV.csc-textpic-left DIV.csc-textpic-text
+{
+	clear: left;
+}
+DIV.csc-textpic-intext-left DIV.csc-textpic-imagewrap
+{
+	float: left;
+}
+DIV.csc-textpic-intext-right DIV.csc-textpic-imagewrap
+{
+	float: right;
+}
+DIV.csc-textpic-intext-right-nowrap DIV.csc-textpic-imagewrap
+{
+	float: right;
+	clear: both;
+}
+* HTML DIV.csc-textpic-intext-right-nowrap .csc-textpic-text
+{
+	height: 1%;
+}
+DIV.csc-textpic-intext-left-nowrap DIV.csc-textpic-imagewrap
+{
+	float: left;
+	clear: both;
+}
+* HTML DIV.csc-textpic-intext-left-nowrap .csc-textpic-text
+{
+	height: 1%;
+}
+
+/*
+     FILE ARCHIVED ON 19:33:11 Dec 23, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:20:44 Jun 12, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.498
+  exclusion.robots: 0.051
+  exclusion.robots.policy: 0.041
+  esindex: 0.01
+  cdx.remote: 28.138
+  LoadShardBlock: 681.609 (3)
+  PetaboxLoader3.datanode: 200.902 (4)
+  PetaboxLoader3.resolve: 619.593 (3)
+  load_resource: 151.141
+*/

@@ -1,0 +1,262 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--?xml version="1.0" encoding="utf-8"?--><html xml:lang="de" lang="de" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<!--
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2012 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.org/ and http://typo3.org/
+-->
+		<base href="/archive/2016/www.gdi.de/index.html">
+		<title>GDI Software: Seminare</title>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700" media="all">
+		<link rel="stylesheet" type="text/css" href="/archive/2016/www.gdi.de/typo3temp/stylesheet_6d6a461ae8.css" media="all">
+		<link rel="stylesheet" type="text/css" href="/archive/2016/www.gdi.de/fileadmin/templates/gdi/bootstrap.min.css" media="all">
+		<link rel="stylesheet" type="text/css" href="/archive/2016/www.gdi.de/fileadmin/Template/js/fancybox/jquery.fancybox.css" media="all">
+		<script src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/js/jquery/1.11.2/jquery.min.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/js/jquery/1.11.2/jquery-ui.min.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/js/jquery/flowplayer.min.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/js/jquery/jquerytools.expose.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/typo3temp/javascript_ebd9c81938.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="/archive/2016/www.gdi.de/fileadmin/Template/css/reset.css">
+		<link rel="stylesheet" href="/archive/2016/www.gdi.de/fileadmin/Template/css/screen.css">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<meta name="description" content="Die GDI-Akademie bietet Partnern und Kunden Seminare zu allen GDI-Softwareprodukten. In themenbezogenen Schulungen lernen Sie Ihre GDI-Software effizient anzuwenden und das vielfältige Potenzial der Programme optimal zu nutzen.">
+		<meta name="keywords" content="">
+		<meta name="DC.Description" content="Die GDI-Akademie bietet Partnern und Kunden Seminare zu allen GDI-Softwareprodukten. In themenbezogenen Schulungen lernen Sie Ihre GDI-Software effizient anzuwenden und das vielfältige Potenzial der Programme optimal zu nutzen.">
+		<meta name="DC.Subject" content="">
+		<link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements">
+		<link rel="shortcut icon" type="image/x-icon" href="/archive/2016/www.gdi.de/fileadmin/bilder/favicon.ico">
+		<script type="text/javascript">
+//<![CDATA[
+// js for all render methods
+function searchboxFocus(searchbox) {
+	if(searchbox.value == "Suchbegriff") {
+		searchbox.value = "";
+	}
+}
+
+function resetCheckboxes(filter) {
+	allLi = document.getElementsByName("optionCheckBox" + filter);
+	allCb = new Array();
+	for(i = 0; i < allLi.length; i++) {
+		allCb[i] = allLi[i].getElementsByTagName("input");
+	}
+	for(i = 0; i < allCb.length; i++) {
+		allCb[i][0].checked = false;
+	}
+}
+
+function enableCheckboxes(filter) {
+	var lis = document.getElementsByTagName("LI");
+	//alert(lis.count());
+	var allCb = new Array();
+	var allCbChecked = true;
+	var count = 0;
+	var optionClass = new Array();
+	for(var i = 0; i < lis.length; i++) {
+		if (optionClasses = lis[i].getAttribute("class", 1)) {
+			optionClassesArray = optionClasses.split(" ");
+			//alert(optionClasses);
+			if(optionClassesArray[1] == "optionCheckBox" + filter) {
+				allCb[count] = lis[i].getElementsByTagName("input")[0];
+				count++;
+			}
+		}
+	}
+	for(i = 0; i < allCb.length; i++) {
+		if(!allCb[i].checked) {
+			allCbChecked = false;
+		}
+	}
+	if(allCbChecked) {
+		for(i = 0; i < allCb.length; i++) {
+			allCb[i].checked = false;
+		}
+	} else {
+		for(i = 0; i < allCb.length; i++) {
+			allCb[i].checked = true;
+		}
+	}
+}
+//]]>
+</script>
+	</head>
+	<body id="page_976" class="parent_93 style5 lang_0">
+		<div class="pageWrap">
+			<div id="headline">
+				<div class="innerWrap">
+					<ul>
+						<li id="loginButton" class="disabled"><span class="loginbox">
+								<div class="tx-felogin-pi1">
+									<form action="/archive/2016/www.gdi.de/service/die-gdi-akademie.html" target="_top" method="post" onsubmit="; return true;"><input type="text" id="user" name="user" value="" placeholder="BENUTZER"><input type="password" id="pass" name="pass" value="" placeholder="PASSWORD"><input type="hidden" name="logintype" value="login"><input type="hidden" name="pid" value="597,596"><input type="hidden" name="redirect_url" value=""><input type="hidden" name="tx_felogin_pi1[noredirect]" value="0"><input type="submit" name="submit" value="Login">
+										<div class="messages">
+											<h3>Benutzeranmeldung</h3>
+											<div>Geben Sie Ihren Benutzernamen und Ihr Passwort ein, um sich an der Website anzumelden:</div>
+										</div>
+									</form>
+								</div>
+							</span><a href="/archive/2016/www.gdi.de/service/die-gdi-akademie.html">Login</a></li>
+						<li id="searchButton" class="disabled"><span class="searchBox">
+								<div id="top-searchBox">
+									<div id="c6907" class="csc-default">
+										<div class="tx-kesearch-pi1">
+											<form method="get" id="xajax_form_kesearch_pi1" name="xajax_form_kesearch_pi1" action="/archive/2016/www.gdi.de/index.php" class="static"><input type="hidden" name="id" value="181"><input type="text" id="ke_search_sword" name="tx_kesearch_pi1[sword]" value="Suchbegriff" onfocus=" searchboxFocus(this); "><input type="image" id="kesearch_submit" src="/archive/2016/www.gdi.de/typo3conf/ext/ke_search/res/img/kesearch_submit.png" alt="Finden" class="submit" onclick="document.getElementById('pagenumber').value=1; document.getElementById('xajax_form_kesearch_pi1').submit();"><input id="pagenumber" type="hidden" name="tx_kesearch_pi1[page]" value="1"><input id="resetFilters" type="hidden" name="tx_kesearch_pi1[resetFilters]" value="0"><input id="sortByField" type="hidden" name="tx_kesearch_pi1[sortByField]" value=""><input id="sortByDir" type="hidden" name="tx_kesearch_pi1[sortByDir]" value="">
+												<div id="kesearch_filters"></div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</span><a href="/archive/2016/www.gdi.de/service/die-gdi-akademie.html">Suche</a></li>
+						<li id="kontaktbutton"><img src="/archive/2016/www.gdi.de/fileadmin/Template/media/gdi_kontakt.png" alt="GDI Kontaktbutton">Kostenfrei Informieren <span class="number">0800 95 500 95</span></li>
+					</ul>
+					<div class="clearer"></div>
+				</div>
+			</div>
+			<div class="container" id="logorow">
+				<div class="innerWrap">
+					<div class="logo">
+						<h1><a href="/archive/2016/www.gdi.de/index.html" title="GDI mbH - Startseite"><img src="/archive/2016/www.gdi.de/fileadmin/Template/media/gdi_logo.png" alt="GDI mbH - Logo"></a></h1>
+					</div>
+					<div class="clearer"></div>
+				</div>
+			</div>
+			<div class="container" id="mainnavi">
+				<div class="innerWrap">
+					<nav class="navbar navbar-default">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-gdi-navbar-collapse" aria-expanded="false"><span class="sr-only">Navigation ein-/ausblenden</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+							<a href="/archive/2016/www.gdi.de/service/die-gdi-akademie.html" class="navbar-brand hidden-lg hidden-md hidden-sm" data-toggle="collapse" data-target="#bs-gdi-navbar-collapse" aria-expanded="false">Navigation</a> </div>
+						<div class="collapse navbar-collapse" id="bs-gdi-navbar-collapse">
+							<ul class="nav navbar-nav">
+								<li id="mi89"><a href="/archive/2016/www.gdi.de/startseite.html" title="ERP | CRM | Finanzbuchhaltung | Lohnabrechnung | Personalzeiterfassung | Anlagenbuchhaltung | Kostenrechnung">Startseite</a></li>
+								<li id="mi90"><a href="/archive/2016/www.gdi.de/loesungen-fuer-den-mittelstand.html" title="ERP Software für den Mittelstand">Für mittlere Unternehmen</a></li>
+								<li id="mi91"><a href="/archive/2016/www.gdi.de/loesungen-fuer-kleine-unternehmen.html" title="Bürosoftware für kleine Unternehmen">Für kleine Unternehmen</a></li>
+								<li id="mi92"><a href="/archive/2016/www.gdi.de/gdi-das-unternehmen.html" title="GDI - das Unternehmen">GDI</a></li>
+								<li id="mi93" class="active"><a href="/archive/2016/www.gdi.de/service.html" title="Service ist unser Programm">Service</a></li>
+								<li id="mi1856"><a href="/archive/2016/www.gdi.de/fachhandelsportal.html">Fachhandelsportal</a></li>
+								<li id="mi94"><a href="/archive/2016/www.gdi.de/partner.html">Partner</a></li>
+								<li id="mi2432"><a href="/archive/2016/www.gdi.de/gdi-das-unternehmen/kontakt.html">Kontakt</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+			<div class="container" id="mainContent">
+				<div class="innerWrap">
+					<div class="threeColSet row">
+						<div class="colleft col-md-2 col-sm-3">
+							<div class="contentElement">
+								<ul class="submenu">
+									<li id="mi976" class="selected"><a href="/archive/2016/www.gdi.de/service/die-gdi-akademie.html" title="Seminare" class="Level1Item">Die GDI-Akademie</a>
+										<ul class="Level2">
+											<li id="mi977"><a href="/archive/2016/www.gdi.de/service/die-gdi-akademie/seminartermine-landau.html" class="Level2Item">Seminartermine Landau</a></li>
+											<li id="mi978"><a href="/archive/2016/www.gdi.de/service/die-gdi-akademie/webinare.html" class="Level2Item">Webinare</a></li>
+										</ul>
+									</li>
+									<li id="mi2055"><a href="/archive/2016/www.gdi.de/service/service-videos.html" class="Level1Item">Service Videos</a></li>
+									<li id="mi1695"><a href="/archive/2016/www.gdi.de/service/fachhandelspartner-finden.html" title="Fachhandelspartner und Kompetenzcenter" class="Level1Item">Fachhandelspartner finden</a></li>
+									<li id="mi142"><a href="/archive/2016/www.gdi.de/service/kunden-login.html" class="Level1Item">Kunden-Login</a></li>
+									<li id="mi145"><a href="/archive/2016/www.gdi.de/service/download-bereich.html" class="Level1Item">Download-Bereich</a></li>
+									<li id="mi1754"><a href="/archive/2016/www.gdi.de/service/systemvoraussetzungen.html" class="Level1Item">Systemvoraussetzungen</a></li>
+									<li id="mi960"><a href="/archive/2016/www.gdi.de/service/gdimeldecenter.html" class="Level1Item">GDI MeldeCenter-Anmeldung</a></li>
+								</ul>
+							</div>
+							<div class="innerContentWrap"></div>
+						</div>
+						<div class="maincol col-md-10 col-sm-9">
+							<div class="row">
+								<div class="col-sm-9">
+									<div class="contentElement">
+										<div id="c1685" class="csc-default">
+											<div class="csc-header csc-header-n1">
+												<h2 class="csc-firstHeader">GDI-Akademie</h2>
+											</div>
+											<p class="bodytext">Das Auto streikt. Einzige "Werkstätte" weit und breit: ein Schmied. Der holt einen großen Hammer und schlägt kräftig zu. Auto springt wieder an, der Schmied präsentiert die Rechnung: " 1 Schlag: 1,- Euro. Gewusst wo: 19,- Euro. Zusammen: 20,-).</p>
+											<p class="bodytext">Eine kleine Anekdote aber im "Gewusst wo" steckt nicht nur die Pointe, sondern eine herausragende Bedeutung. </p>
+											<p class="bodytext">Software, Hardware und Knowledgeware gehören heute untrennbar zusammen. Nicht umsonst haben große Konzerne schon seit Jahren eigene hochkarätig besetzte Abteilungen für ihr Wissensmanagement eingerichtet. </p>
+											<p class="bodytext">Die GDI Akademie bietet mittelständischen und kleinen Unternehmen ein gestaffeltes Spektrum an Seminaren, Trainings, Schulungen und Vorträgen. Insgesamt ein Power Pool für moderne Unternehmensführung, Organisation und Markterfolg. </p>
+											<p class="bodytext">GDI-Kunden stehen Spezialschulungen zum optimierten Einsatz Ihrer Anwendungen zur Verfügung.</p>
+											<p class="bodytext"> Die Veranstaltungen finden statt</p>
+											<ul>
+												<li>in der Zentrale in Landau</li>
+												<li>regional </li>
+												<li>Inhouse für Ihr Unternehmen</li>
+												<li>und als bequeme Webinare</li>
+											</ul>
+											<p class="bodytext"> </p>
+											<p class="bodytext"> </p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="colright">
+										<div id="c1699" class="csc-default">
+											<div class="csc-textpic csc-textpic-left csc-textpic-above">
+												<div class="csc-textpic-imagewrap csc-textpic-single-image"><img src="/archive/2016/www.gdi.de/typo3temp/pics/7b61515eb6.jpg" width="220" height="167" border="0" alt=""></div>
+												<div class="csc-textpic-text"></div>
+											</div>
+											<div class="csc-textpic-clear"></div>
+										</div>
+										<div id="c7313" class="csc-default">
+											<div class="csc-header csc-header-n2">
+												<h4>Alle Termine der GDI Akademie</h4>
+											</div>
+											<p class="bodytext"><a href="/archive/2016/www.gdi.de/service/die-gdi-akademie/seminartermine-landau.html" title="Opens internal link in current window" class="internal-link">finden Sie hier</a></p>
+										</div>
+										<div class="divider">
+											<hr>
+										</div>
+										<div id="c7806" class="csc-default">
+											<p class="bodytext"><span style="font-weight: bold; ">Alle Fragen </span>zu <br>Preisen, Inhalten und<br>Konditionen beantworten wir gerne<br>und schnell.<br><a href="/archive/2016/www.gdi.de/service/die-gdi-akademie/seminar-anfrage.html" title="Opens internal link in current window" class="internal-link">Bitte klicken Sie hier.</a></p>
+										</div>
+									</div>
+									<div class="clearer"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="clearer"></div>
+				</div>
+			</div>
+			<div class="container" id="footer">
+				<div class="innerWrap"></div>
+			</div>
+		</div>
+		<script src="/archive/2016/www.gdi.de/fileadmin/Template/js/main.js" type="text/javascript"></script>
+		<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://piwik.gdi.de/" : "http://piwik.gdi.de/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+		<script type="text/javascript">
+try {
+  var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+  piwikTracker.trackPageView();
+  piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script>
+		<noscript><img src="http://piwik.gdi.de/piwik.php?idsite=1" style="border:0" alt=""></noscript>
+		<script type="text/javascript">
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-29081996-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+</script>
+		<script src="/archive/2016/www.gdi.de/typo3conf/ext/cl_jquery_fancybox/fancybox2/jquery.mousewheel-3.0.6.pack.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/typo3conf/ext/cl_jquery_fancybox/fancybox2/jquery.fancybox.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/fileadmin/Template/js/fancybox/jquery.fancybox.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/js/dcn.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/typo3temp/javascript_bac279cc4a.js" type="text/javascript"></script>
+	</body>
+</html>

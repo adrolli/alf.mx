@@ -1,0 +1,526 @@
+BODY
+{
+	background: #CBCBCB url(/archive/2009/www.dcn.de/fileadmin/styles/01_layouts_basics/css/images/bg_blue.jpg) repeat-x fixed top left;
+	padding: 0px 0 10px;
+}
+#page_margins
+{
+	margin: 0 auto;
+	border: 0px solid #889;
+	width: 930px;
+}
+#page
+{
+	position: relative;
+	background: #C8DDF3;
+	border: 0px solid #C8DDF3;
+}
+BODY
+{
+	text-align: center;
+}
+#page_margins
+{
+	text-align: left;
+}
+#pictobar A
+{
+	text-decoration: none;
+}
+#pictobar
+{
+	position: absolute;
+	height: 80px;
+	width: 930px;
+	margin-top: -97px;
+	margin-bottom: 17px;
+}
+#pictobar IMG
+{
+	float: left;
+}
+#picto1h1_hover A
+{
+	font-size: 22px;
+	font-weight: normal;
+	color: #F26308;
+	margin-top: 16px;
+}
+#picto1h2_hover
+{
+	font-size: 14px;
+	color: #2B2E68;
+	font-weight: normal;
+	margin-top: -24px;
+}
+#picto1h1_hover A:hover
+{
+	color: #2B2E68;
+}
+#picto1h2_hover A
+{
+	color: #2B2E68 !important;
+}
+#picto1h1
+{
+	font-size: 22px;
+	font-weight: normal;
+	color: #2B2E68;
+	margin-left: 0px;
+}
+#picto1h2
+{
+	font-size: 14px;
+	color: #FFF;
+	font-weight: normal;
+	margin-left: 0px;
+}
+#picto1h2 A
+{
+	color: #FFF;
+}
+#picto2h1_hover A
+{
+	font-size: 22px;
+	font-weight: normal;
+	color: #F26308;
+	margin-top: 16px;
+}
+#picto2h2_hover A
+{
+	font-size: 14px;
+	color: #2B2E68 !important;
+	font-weight: normal;
+	margin-top: -24px;
+}
+#picto2h1
+{
+	font-size: 22px;
+	font-weight: normal;
+	color: #2B2E68;
+	margin-left: 0px;
+}
+#picto2h2
+{
+	font-size: 14px;
+	color: #FFF;
+	font-weight: normal;
+	margin-left: 0px;
+}
+#picto3h1_hover A
+{
+	font-size: 22px;
+	font-weight: normal;
+	color: #F26308;
+	margin-top: 16px;
+}
+#picto3h2_hover A
+{
+	font-size: 14px;
+	color: #2B2E68 !important;
+	font-weight: normal;
+	margin-top: -24px;
+}
+#picto3h1
+{
+	font-size: 22px;
+	font-weight: normal;
+	color: #2B2E68;
+	margin-left: 0px;
+}
+#picto3h2
+{
+	font-size: 14px;
+	color: #FFF;
+	font-weight: normal;
+	margin-left: 0px;
+}
+#pictodesignroot
+{
+	height: 85px;
+	width: 310px;
+	float: left;
+}
+#pictocommunicateroot
+{
+	height: 85px;
+	width: 310px;
+	float: left;
+}
+#pictonetworkroot
+{
+	height: 85px;
+	width: 310px;
+	float: left;
+}
+.pictodesignsubheader
+{
+	position: absolute;
+	width: 200px;
+	margin: 63px 0px 0px 17px;
+}
+.pictocommunicatesubheader
+{
+	position: absolute;
+	/*[empty]float:;*/
+	width: 200px;
+	margin: 63px 0px 0px 40px;
+}
+.pictonetworksubheader
+{
+	position: absolute;
+	width: 200px;
+	margin: 63px 0px 0px 38px;
+}
+.pictodesignheader
+{
+	position: absolute;
+	margin: 37px 0px 0px 4px;
+}
+.pictocommunicateheader
+{
+	position: absolute;
+	margin: 37px 0px 0px 10px;
+}
+.pictonetworkheader
+{
+	position: absolute;
+	margin: 37px 0px 0px 12px;
+}
+.pictodesign
+{
+	display: block;
+	position: relative;
+	margin: 0px 0px 0px 15px;
+}
+DIV#pictodesignroot IMG
+{
+	float: left;
+}
+.pictocommunicate
+{
+	display: block;
+}
+.pictonetwork
+{
+	display: block;
+}
+#pictobar DIV DIV
+{
+	margin-left: 86px;
+}
+#pictobar DIV DIV H2 A
+{
+	color: #FFF;
+}
+#header
+{
+	height: 79px;
+	color: #FFF;
+	background: #2B2E68 url(/archive/2009/www.dcn.de/fileadmin/styles/dcnimg/headbg.jpg) repeat-x;
+}
+#header IMG.headImg1
+{
+	position: absolute;
+	top: 0px;
+	left: 26px;
+	font-size: 190%;
+}
+#header H1 SPAN
+{
+	display: block;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+	line-height: 105px;
+}
+#header DIV.tx-macinasearchbox-pi1
+{
+	position: absolute;
+	bottom: 28px;
+	right: 26px;
+	font-size: 11px;
+}
+#header DIV.tx-macinasearchbox-pi1 INPUT
+{
+	margin-left: 0px;
+}
+#header DIV.tx-macinasearchbox-pi1 FORM SPAN
+{
+	display: block;
+	font-weight: bold;
+	color: #AAA;
+}
+#header DIV.tx-macinasearchbox-pi1 FORM INPUT
+{
+	width: 139px;
+	height: 13px;
+}
+#header #banner
+{
+	position: absolute;
+	top: 25px;
+	right: 10px;
+	z-index: 10;
+}
+#header #topnav
+{
+	top: 2px;
+	font-size: 0.9em;
+	color: #AAA;
+	background: transparent;
+}
+#nav_main
+{
+	border-bottom: 0px solid #000000;
+	background: #C6D5E2 url(/archive/2009/www.dcn.de/fileadmin/styles/dcnimg/navbg.jpg) repeat-x;
+	height: 28px;
+}
+#nav UL
+{
+	margin-left: 7px;
+}
+#nav_main UL
+{
+}
+LI
+{
+}
+LI A
+{
+}
+SPAN
+{
+}
+#nav
+{
+}
+#mainstart
+{
+	background: #9DA8B0;
+	padding: 0;
+}
+#main
+{
+	background: #FFF;
+	padding: 0;
+}
+#teasertextstart
+{
+	position: absolute;
+	padding: 0px;
+	margin: -226px 0 0 28px;
+}
+#teasertext
+{
+	position: absolute;
+	padding: 0px;
+	margin: -168px 0 0 28px;
+}
+#teasertextstart P
+{
+	font-size: 1.2em;
+	color: #16194F;
+}
+#teasertextstart A
+{
+	color: #16194F;
+	text-decoration: none;
+}
+#teasertext P
+{
+	font-size: 1.2em;
+	color: #16194F;
+}
+#teasertextstart H1
+{
+	font-size: 175%;
+	font-weight: bold;
+	margin: 0 0 -10px;
+	position: relative;
+}
+#teasertext H1
+{
+	font-size: 175%;
+	font-weight: bold;
+	margin: 0 0 -10px;
+}
+#footer
+{
+	color: #666;
+	background: #2B2E68 url(/archive/2009/www.dcn.de/fileadmin/styles/dcnimg/botbg.jpg) repeat-x;
+	padding: 10px 10px 10px 28px;
+}
+#col1
+{
+	min-height: 150px;
+	width: 25%;
+}
+#col1_content
+{
+	padding: 0px 27px 10px 0px;
+	min-height: 250px;
+}
+#col2
+{
+	width: 25%;
+}
+#col2_content
+{
+	padding: 28px 0px 10px 30px;
+}
+#col3-1
+{
+	margin: 0 3%;
+}
+#col3-2
+{
+	margin: 0 3% 0 28%;
+}
+#col3
+{
+	margin: 0 27% 0 28%;
+}
+#col3-1_content
+{
+	padding: 28px 0px;
+}
+#col3-2_content
+{
+	padding: 28px 0px;
+}
+#col3_content
+{
+	padding: 28px 0px;
+}
+.floatbox H1
+{
+	/*[empty]padding:;*/
+}
+#teaser
+{
+	margin: 0px;
+	padding: 0px;
+	height: 188px;
+	background: #EEE url(/archive/2009/www.dcn.de/fileadmin/styles/dcnheader/communicate.jpg);
+	color: #888;
+}
+#teaserstart
+{
+	margin: 0px;
+	padding: 0px;
+	height: 271px;
+	background: #EEE url(/archive/2009/www.dcn.de/fileadmin/styles/dcnheader/communicate.jpg);
+	color: #888;
+}
+#teaser DIV
+{
+	float: left;
+	width: auto;
+	font-size: 0.9em;
+}
+#teaserstart DIV
+{
+	float: left;
+	width: auto;
+	font-size: 0.9em;
+}
+#teaser .rootline
+{
+	margin: 164px 0px 0px 28px;
+	color: #FFFFFF;
+}
+#teaserstart .rootline
+{
+	margin: -1000px 0px 0px 28px;
+	color: #FFFFFF;
+}
+#teaser .rootline A
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#teaser .rootline A:hover
+{
+	background: transparent;
+	text-decoration: underline;
+}
+#teaser .langMenu
+{
+	float: right;
+	margin: 3px 10px 0 0;
+}
+#teaserstart .langMenu
+{
+	float: right;
+	margin: -1003px 10px 0 0;
+}
+#teaser .langMenu A:hover
+{
+	background: transparent;
+}
+#teaser .langMenu IMG
+{
+	margin-top: 5px;
+	padding-right: 3px;
+}
+#teaser .langMenu .tx-srlanguagemenu-pi1 .CUR IMG
+{
+	padding-right: 1px;
+}
+#teaser .langMenu .tx-srlanguagemenu-pi1 .CUR IMG.tx-srlanguagemenu-pi1-flag
+{
+	padding-right: 3px;
+}
+#teaser .langMenu .tx-srlanguagemenu-pi1 FORM#sr_language_menu_form FIELDSET LEGEND
+{
+	display: none;
+}
+#teaser .langMenu .tx-srlanguagemenu-pi1 FORM#sr_language_menu_form FIELDSET LABEL
+{
+	display: none;
+}
+#teaser .selectFontSize
+{
+	float: right;
+	margin: 6px 10px 0 0;
+}
+#teaser .selectFontSize A
+{
+	color: #FFF;
+}
+#teaser .selectFontSize A:hover
+{
+	background: transparent;
+}
+#teaser .aktDatum
+{
+	float: right;
+	margin: 6px 20px 4px 0;
+}
+#teaserstart .aktDatum
+{
+	float: right;
+	margin: -1006px 20px 4px 0;
+}
+
+/*
+     FILE ARCHIVED ON 01:41:54 Mar 04, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:20:39 Jun 12, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.617
+  exclusion.robots: 0.072
+  exclusion.robots.policy: 0.06
+  esindex: 0.01
+  cdx.remote: 9.567
+  LoadShardBlock: 62.389 (3)
+  PetaboxLoader3.datanode: 79.676 (4)
+  load_resource: 115.272
+  PetaboxLoader3.resolve: 73.36
+*/

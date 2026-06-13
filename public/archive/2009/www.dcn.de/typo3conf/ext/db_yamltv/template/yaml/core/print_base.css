@@ -1,0 +1,257 @@
+BODY, #page_margins, #page, #main
+{
+	/*[ph]0*/
+	/*[ph]1*/
+	/*[ph]2*/
+}
+@media print
+{
+	BODY, #page_margins, #page, #main
+	{
+		/*[id]0*/margin: 0;
+		/*[id]1*/padding: 0;
+		/*[id]2*/border: 0;
+	}
+}
+#page_margins, #page
+{
+	/*[ph]3*/
+	/*[ph]4*/
+	/*[ph]5*/
+}
+@media print
+{
+	#page_margins, #page
+	{
+		/*[id]3*/width: 100% !important; /*[e]100%*/
+		/*[id]4*/min-width: 0;
+		/*[id]5*/max-width: none;
+	}
+}
+#header
+{
+	/*[ph]6*/
+}
+@media print
+{
+	#header
+	{
+		/*[id]6*/height: auto;
+	}
+}
+#footer
+{
+	/*[ph]7*/
+}
+@media print
+{
+	#footer
+	{
+		/*[id]7*/display: none;
+	}
+}
+#topnav
+{
+	/*[ph]8*/
+}
+@media print
+{
+	#topnav
+	{
+		/*[id]8*/display: none;
+	}
+}
+#nav
+{
+	/*[ph]9*/
+}
+@media print
+{
+	#nav
+	{
+		/*[id]9*/display: none;
+	}
+}
+#search
+{
+	/*[ph]a*/
+}
+@media print
+{
+	#search
+	{
+		/*[id]a*/display: none;
+	}
+}
+.c25l, .c33l, .c38l, .c50l, .c62l, .c66l, .c75l, .c25r, .c33r, .c38r, .c50r, .c62r, .c66r, .c75r
+{
+	/*[ph]b*/
+	/*[ph]c*/
+	/*[ph]d*/
+	/*[ph]e*/
+	/*[ph]f*/
+}
+@media print
+{
+	.c25l, .c33l, .c38l, .c50l, .c62l, .c66l, .c75l, .c25r, .c33r, .c38r, .c50r, .c62r, .c66r, .c75r
+	{
+		/*[id]b*/width: 100%;
+		/*[id]c*/margin: 0;
+		/*[id]d*/float: none;
+		/*[id]e*/overflow: visible;
+		/*[id]f*/display: table;
+	}
+}
+.subc, .subcl, .subcr
+{
+	/*[ph]10*/
+	/*[ph]11*/
+}
+@media print
+{
+	.subc, .subcl, .subcr
+	{
+		/*[id]10*/margin: 0;
+		/*[id]11*/padding: 0;
+	}
+}
+BODY *
+{
+	/*[ph]12*/
+}
+@media print
+{
+	BODY *
+	{
+		/*[id]12*/font-family: "Times New Roman", Times, serif;
+	}
+}
+CODE, PRE
+{
+	/*[ph]13*/
+}
+@media print
+{
+	CODE, PRE
+	{
+		/*[id]13*/font-family: "Courier New", Courier, mono;
+	}
+}
+BODY
+{
+	/*[ph]14*/
+}
+@media print
+{
+	BODY
+	{
+		/*[id]14*/font-size: 12pt;
+	}
+}
+H1, H2, H3, H4, H5, H6
+{
+	/*[ph]15*/
+}
+@media print
+{
+	H1, H2, H3, H4, H5, H6
+	{
+		/*[id]15*/page-break-after: avoid;
+	}
+}
+ABBR[title]:after, ACRONYM[title]:after
+{
+	/*[ph]16*/
+}
+@media print
+{
+	ABBR[title]:after, ACRONYM[title]:after
+	{
+		/*[id]16*/content: '(' attr(title) ')';
+	}
+}
+#page A[href^="http:"], #page A[href^="https:"]
+{
+	/*[ph]17*/
+	/*[ph]18*/
+}
+@media print
+{
+	#page A[href^="http:"], #page A[href^="https:"]
+	{
+		/*[id]17*/padding-left: 0;
+		/*[id]18*/background-image: none;
+	}
+}
+A[href]:after
+{
+	/*[ph]19*/
+	/*[ph]1a*/
+	/*[ph]1b*/
+	/*[ph]1c*/
+}
+@media print
+{
+	A[href]:after
+	{
+		/*[id]19*/content: " <URL: "attr(href)">";
+		/*[id]1a*/color: #444;
+		/*[id]1b*/background: inherit;
+		/*[id]1c*/font-style: italic;
+	}
+}
+#col1_content:before, #col2_content:before, #col3_content:before
+{
+	/*[ph]1d*/
+	/*[ph]1e*/
+	/*[ph]1f*/
+	/*[ph]20*/
+	/*[ph]21*/
+	/*[ph]22*/
+}
+@media print
+{
+	#col1_content:before, #col2_content:before, #col3_content:before
+	{
+		/*[id]1d*/content: "";
+		/*[id]1e*/color: #888;
+		/*[id]1f*/background: inherit;
+		/*[id]20*/display: block;
+		/*[id]21*/font-weight: bold;
+		/*[id]22*/font-size: 1.5em;
+	}
+}
+.floatbox, .subcolumns, .subcolums_oldgecko
+{
+	/*[ph]23*/
+	/*[ph]24*/
+}
+@media print
+{
+	.floatbox, .subcolumns, .subcolums_oldgecko
+	{
+		/*[id]23*/overflow: visible;
+		/*[id]24*/display: table;
+	}
+}
+
+/*
+     FILE ARCHIVED ON 21:42:42 Dec 23, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:45:58 Jun 12, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.53
+  exclusion.robots: 0.063
+  exclusion.robots.policy: 0.053
+  esindex: 0.01
+  cdx.remote: 7.625
+  LoadShardBlock: 80.781 (3)
+  PetaboxLoader3.datanode: 67.686 (4)
+  PetaboxLoader3.resolve: 60.991 (3)
+  load_resource: 85.985
+*/

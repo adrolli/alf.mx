@@ -1,0 +1,114 @@
+#submenu
+{
+	width: 100%;
+	overflow: hidden;
+	margin: -1px 0px 0px;
+	list-style-type: none;
+}
+#submenu UL
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#submenu LI
+{
+	float: left;
+	width: 96%;
+	margin: 0px;
+	background: url(/archive/2009/www.dcn.de/fileadmin/styles/dcnimg/subnavbg.jpg) no-repeat;
+	padding: 2px 0px;
+}
+#submenutop
+{
+	background: #FFFFFF url(/archive/2009/www.dcn.de/fileadmin/styles/dcnimg/subnavtop.jpg) no-repeat;
+	height: 23px;
+	width: 96%;
+}
+#submenubot
+{
+	background: #FFFFFF url(/archive/2009/www.dcn.de/fileadmin/styles/dcnimg/subnavbot.jpg) no-repeat;
+	height: 126px;
+	width: 96%;
+}
+#submenu A, #submenu STRONG
+{
+	display: block !important; /*[e]block*/
+	width: 100% !important; /*[e]100%*/
+	padding: 2px 0px !important; /*[e]2px 0px*/
+	text-decoration: none !important; /*[e]none*/
+	color: #21245D !important; /*[e]#21245D*/
+	text-align: right !important; /*[e]right*/
+	margin: 0px !important; /*[e]0px*/
+	font-weight: normal;
+}
+#submenu A#navigation
+{
+	padding: 0 0px 0 0;
+}
+#submenu LI#title
+{
+	width: 96%;
+	padding: 0px;
+	font-weight: bold;
+	color: #21245D;
+	background: url(/archive/2009/www.dcn.de/fileadmin/styles/dcnimg/subnavbg.jpg) no-repeat;
+}
+#submenu LI SPAN
+{
+	display: block;
+	width: 90%;
+	padding: 1px 0px 1px 10%;
+	font-weight: bold;
+}
+#submenu LI#active, #submenu LI STRONG
+{
+	width: 100% !important; /*[e]100%*/
+	padding: 2px 0px !important; /*[e]2px 0px*/
+	font-weight: bold !important; /*[e]bold*/
+	color: #21245D !important; /*[e]#21245D*/
+	background: url(/archive/2009/www.dcn.de/fileadmin/styles/dcnimg/subnavact.jpg) no-repeat !important; /*[e]url(/archive/2009/www.dcn.de/fileadmin/styles/dcnimg/subnavact.jpg) no-repeat*/
+	font-weight: bold !important; /*[e]bold*/
+}
+#submenu LI A
+{
+	width: 100%;
+	padding: 0% 0% 0% 0px;
+	color: #21245D;
+}
+#submenu LI A:focus, #submenu LI A:hover, #submenu LI A:active
+{
+	color: #21245D;
+	font-weight: bold;
+}
+.submenulink
+{
+	margin: 0px -6px 0px -28px;
+}
+#submenu DFN, #submenu .hidden
+{
+	position: absolute;
+	left: -1000em;
+	width: 20em;
+}
+
+/*
+     FILE ARCHIVED ON 19:37:50 Dec 23, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:20:37 Jun 12, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.746
+  exclusion.robots: 0.089
+  exclusion.robots.policy: 0.074
+  esindex: 0.011
+  cdx.remote: 15.163
+  LoadShardBlock: 124.302 (3)
+  PetaboxLoader3.datanode: 152.563 (4)
+  PetaboxLoader3.resolve: 142.857 (2)
+  load_resource: 196.492
+*/

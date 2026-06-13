@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+			xmlns:dc="http://purl.org/dc/elements/1.1/"
+			xmlns="http://purl.org/rss/1.0/">
+	
+	<channel rdf:about="http://www.dcn.de/">
+		<title>DCN Newsfeed</title>
+		<link>http://www.dcn.de/</link>
+		<description>Immer aktuell informiert.</description>
+		<image rdf:resource="http://www.dcn.de/fileadmin/styles/dcnimg/rss.gif" />
+		<items>
+			<rdf:Seq>
+				<rdf:li resource="http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/stromausfall.html" />
+				<rdf:li resource="http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/lohn-softwarede.html" />
+				<rdf:li resource="http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/serverupdate.html" />
+				<rdf:li resource="http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/lesen-bildet.html" />
+				<rdf:li resource="http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/50-x-typo3.html" />
+				<rdf:li resource="http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/sicherheitsupdate.html" />
+				<rdf:li resource="http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/wdb-ruft-swyx.html" />
+				<rdf:li resource="http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/versandkosten.html" />
+				<rdf:li resource="http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/gdi-relaunch.html" />
+				<rdf:li resource="http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/heco-ist-online.html" />
+			</rdf:Seq>
+		</items>
+	</channel>
+	<image rdf:about="http://www.dcn.de/fileadmin/styles/dcnimg/rss.gif">
+		<title>DCN Newsfeed</title>
+		<link>http://www.dcn.de/</link>
+		<url>http://www.dcn.de/fileadmin/styles/dcnimg/rss.gif</url>
+	</image>
+	
+	       
+	<item rdf:about="http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/stromausfall.html">
+		<title>Stromausfall</title>
+		<link>http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/stromausfall.html</link>
+		<description>Aufgrund geplanter Arbeiten am Stromnetz sind wir am Donnerstag, den 08.10.2009 von 12:00 bis 14:00...</description>
+	</item>
+	       
+	<item rdf:about="http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/lohn-softwarede.html">
+		<title>Lohn-Software.de</title>
+		<link>http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/lohn-softwarede.html</link>
+		<description>Mit Lohn-Software.de geht innerhalb weniger Monate die dritte GDI-Webseite mit TYPO3 online.</description>
+	</item>
+	       
+	<item rdf:about="http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/serverupdate.html">
+		<title>Serverupdate</title>
+		<link>http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/serverupdate.html</link>
+		<description>Das Update des DCN Media Servers am 11.09.2009 um 22:35 erfolgreich abgeschlossen.</description>
+	</item>
+	       
+	<item rdf:about="http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/lesen-bildet.html">
+		<title>Lesen bildet</title>
+		<link>http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/lesen-bildet.html</link>
+		<description>DCN ist Sponsor der Autorenlesung von Gudrun Mebs in der Grundschule Ittersbach.</description>
+	</item>
+	       
+	<item rdf:about="http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/50-x-typo3.html">
+		<title>50 x TYPO3</title>
+		<link>http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/50-x-typo3.html</link>
+		<description>Mit LukeRacing.de geht heute unser fünfzigstes TYPO3-Projekt online.</description>
+	</item>
+	       
+	<item rdf:about="http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/sicherheitsupdate.html">
+		<title>Sicherheitsupdate</title>
+		<link>http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/sicherheitsupdate.html</link>
+		<description>Microsoft veröffentlicht wichtiges Sicherheitsupdate für kritische Lücke in Internet Explorer 6, 7...</description>
+	</item>
+	       
+	<item rdf:about="http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/wdb-ruft-swyx.html">
+		<title>WDB ruft SWYX</title>
+		<link>http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/wdb-ruft-swyx.html</link>
+		<description>WDB Unternehmensgruppe verbessert zukünftig Ihre Telekommunikation mit Swyx.</description>
+	</item>
+	       
+	<item rdf:about="http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/versandkosten.html">
+		<title>Versandkosten</title>
+		<link>http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/versandkosten.html</link>
+		<description>BGH-Urteil: Versandkosten müssen in Preisvergleichslisten angegeben werden.</description>
+	</item>
+	       
+	<item rdf:about="http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/gdi-relaunch.html">
+		<title>GDI Relaunch</title>
+		<link>http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/gdi-relaunch.html</link>
+		<description>Der Relaunch der GDI Software geht mit TYPO3 innerhalb weniger Minuten online.</description>
+	</item>
+	       
+	<item rdf:about="http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/heco-ist-online.html">
+		<title>heco ist Online</title>
+		<link>http://www.dcn.de/nc/service/dcn-aktuell/newsdetails/article/heco-ist-online.html</link>
+		<description>heco.de geht mit TYPO3 und einem gigantischen Artikelkatalog in Edelstahl Online.</description>
+	</item>
+	         
+</rdf:RDF>

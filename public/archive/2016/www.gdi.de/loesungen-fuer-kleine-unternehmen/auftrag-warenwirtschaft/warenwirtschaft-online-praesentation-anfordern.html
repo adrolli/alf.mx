@@ -1,0 +1,299 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--?xml version="1.0" encoding="utf-8"?--><html xml:lang="de" lang="de" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<!--
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2012 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.org/ and http://typo3.org/
+-->
+		<base href="/archive/2016/www.gdi.de/index.html">
+		<title>GDI Software: Warenwirtschaft Online- Präsentation anfordern</title>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700" media="all">
+		<link rel="stylesheet" type="text/css" href="/archive/2016/www.gdi.de/typo3temp/stylesheet_58722e1d68.css" media="all">
+		<link rel="stylesheet" type="text/css" href="/archive/2016/www.gdi.de/fileadmin/templates/gdi/bootstrap.min.css" media="all">
+		<link rel="stylesheet" type="text/css" href="/archive/2016/www.gdi.de/fileadmin/Template/js/fancybox/jquery.fancybox.css" media="all">
+		<script src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/js/jquery/1.11.2/jquery.min.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/js/jquery/1.11.2/jquery-ui.min.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/js/jquery/flowplayer.min.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/js/jquery/jquerytools.expose.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/typo3temp/javascript_ebd9c81938.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="/archive/2016/www.gdi.de/fileadmin/Template/css/reset.css">
+		<link rel="stylesheet" href="/archive/2016/www.gdi.de/fileadmin/Template/css/screen.css">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements">
+		<link rel="shortcut icon" type="image/x-icon" href="/archive/2016/www.gdi.de/fileadmin/bilder/favicon.ico">
+		<script type="text/javascript">
+//<![CDATA[
+// js for all render methods
+function searchboxFocus(searchbox) {
+	if(searchbox.value == "Suchbegriff") {
+		searchbox.value = "";
+	}
+}
+
+function resetCheckboxes(filter) {
+	allLi = document.getElementsByName("optionCheckBox" + filter);
+	allCb = new Array();
+	for(i = 0; i < allLi.length; i++) {
+		allCb[i] = allLi[i].getElementsByTagName("input");
+	}
+	for(i = 0; i < allCb.length; i++) {
+		allCb[i][0].checked = false;
+	}
+}
+
+function enableCheckboxes(filter) {
+	var lis = document.getElementsByTagName("LI");
+	//alert(lis.count());
+	var allCb = new Array();
+	var allCbChecked = true;
+	var count = 0;
+	var optionClass = new Array();
+	for(var i = 0; i < lis.length; i++) {
+		if (optionClasses = lis[i].getAttribute("class", 1)) {
+			optionClassesArray = optionClasses.split(" ");
+			//alert(optionClasses);
+			if(optionClassesArray[1] == "optionCheckBox" + filter) {
+				allCb[count] = lis[i].getElementsByTagName("input")[0];
+				count++;
+			}
+		}
+	}
+	for(i = 0; i < allCb.length; i++) {
+		if(!allCb[i].checked) {
+			allCbChecked = false;
+		}
+	}
+	if(allCbChecked) {
+		for(i = 0; i < allCb.length; i++) {
+			allCb[i].checked = false;
+		}
+	} else {
+		for(i = 0; i < allCb.length; i++) {
+			allCb[i].checked = true;
+		}
+	}
+}
+//]]>
+</script>
+		<link rel="stylesheet" type="text/css" href="/archive/2016/www.gdi.de/typo3/sysext/form/Resources/Public/CSS/Form.css" media="all">
+	</head>
+	<body id="page_2456" class="parent_124 style4 lang_0">
+		<div class="pageWrap">
+			<div id="headline">
+				<div class="innerWrap">
+					<ul>
+						<li id="loginButton" class="disabled"><span class="loginbox">
+								<div class="tx-felogin-pi1">
+									<form action="/archive/2016/www.gdi.de/loesungen-fuer-kleine-unternehmen/auftrag-warenwirtschaft/warenwirtschaft-online-praesentation-anfordern.html" target="_top" method="post" onsubmit="; return true;"><input type="text" id="user" name="user" value="" placeholder="BENUTZER"><input type="password" id="pass" name="pass" value="" placeholder="PASSWORD"><input type="hidden" name="logintype" value="login"><input type="hidden" name="pid" value="597,596"><input type="hidden" name="redirect_url" value=""><input type="hidden" name="tx_felogin_pi1[noredirect]" value="0"><input type="submit" name="submit" value="Login">
+										<div class="messages">
+											<h3>Benutzeranmeldung</h3>
+											<div>Geben Sie Ihren Benutzernamen und Ihr Passwort ein, um sich an der Website anzumelden:</div>
+										</div>
+									</form>
+								</div>
+							</span><a href="/archive/2016/www.gdi.de/loesungen-fuer-kleine-unternehmen/auftrag-warenwirtschaft/warenwirtschaft-online-praesentation-anfordern.html">Login</a></li>
+						<li id="searchButton" class="disabled"><span class="searchBox">
+								<div id="top-searchBox">
+									<div id="c6907" class="csc-default">
+										<div class="tx-kesearch-pi1">
+											<form method="get" id="xajax_form_kesearch_pi1" name="xajax_form_kesearch_pi1" action="/archive/2016/www.gdi.de/index.php" class="static"><input type="hidden" name="id" value="181"><input type="text" id="ke_search_sword" name="tx_kesearch_pi1[sword]" value="Suchbegriff" onfocus=" searchboxFocus(this); "><input type="image" id="kesearch_submit" src="/archive/2016/www.gdi.de/typo3conf/ext/ke_search/res/img/kesearch_submit.png" alt="Finden" class="submit" onclick="document.getElementById('pagenumber').value=1; document.getElementById('xajax_form_kesearch_pi1').submit();"><input id="pagenumber" type="hidden" name="tx_kesearch_pi1[page]" value="1"><input id="resetFilters" type="hidden" name="tx_kesearch_pi1[resetFilters]" value="0"><input id="sortByField" type="hidden" name="tx_kesearch_pi1[sortByField]" value=""><input id="sortByDir" type="hidden" name="tx_kesearch_pi1[sortByDir]" value="">
+												<div id="kesearch_filters"></div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</span><a href="/archive/2016/www.gdi.de/loesungen-fuer-kleine-unternehmen/auftrag-warenwirtschaft/warenwirtschaft-online-praesentation-anfordern.html">Suche</a></li>
+						<li id="kontaktbutton"><img src="/archive/2016/www.gdi.de/fileadmin/Template/media/gdi_kontakt.png" alt="GDI Kontaktbutton">Kostenfrei Informieren <span class="number">0800 95 500 95</span></li>
+					</ul>
+					<div class="clearer"></div>
+				</div>
+			</div>
+			<div class="container" id="logorow">
+				<div class="innerWrap">
+					<div class="logo">
+						<h1><a href="/archive/2016/www.gdi.de/index.html" title="GDI mbH - Startseite"><img src="/archive/2016/www.gdi.de/fileadmin/Template/media/gdi_logo.png" alt="GDI mbH - Logo"></a></h1>
+					</div>
+					<div class="clearer"></div>
+				</div>
+			</div>
+			<div class="container" id="mainnavi">
+				<div class="innerWrap">
+					<nav class="navbar navbar-default">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-gdi-navbar-collapse" aria-expanded="false"><span class="sr-only">Navigation ein-/ausblenden</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+							<a href="/archive/2016/www.gdi.de/loesungen-fuer-kleine-unternehmen/auftrag-warenwirtschaft/warenwirtschaft-online-praesentation-anfordern.html" class="navbar-brand hidden-lg hidden-md hidden-sm" data-toggle="collapse" data-target="#bs-gdi-navbar-collapse" aria-expanded="false">Navigation</a> </div>
+						<div class="collapse navbar-collapse" id="bs-gdi-navbar-collapse">
+							<ul class="nav navbar-nav">
+								<li id="mi89"><a href="/archive/2016/www.gdi.de/startseite.html" title="ERP | CRM | Finanzbuchhaltung | Lohnabrechnung | Personalzeiterfassung | Anlagenbuchhaltung | Kostenrechnung">Startseite</a></li>
+								<li id="mi90"><a href="/archive/2016/www.gdi.de/loesungen-fuer-den-mittelstand.html" title="ERP Software für den Mittelstand">Für mittlere Unternehmen</a></li>
+								<li id="mi91" class="active"><a href="/archive/2016/www.gdi.de/loesungen-fuer-kleine-unternehmen.html" title="Bürosoftware für kleine Unternehmen">Für kleine Unternehmen</a></li>
+								<li id="mi92"><a href="/archive/2016/www.gdi.de/gdi-das-unternehmen.html" title="GDI - das Unternehmen">GDI</a></li>
+								<li id="mi93"><a href="/archive/2016/www.gdi.de/service.html" title="Service ist unser Programm">Service</a></li>
+								<li id="mi1856"><a href="/archive/2016/www.gdi.de/fachhandelsportal.html">Fachhandelsportal</a></li>
+								<li id="mi94"><a href="/archive/2016/www.gdi.de/partner.html">Partner</a></li>
+								<li id="mi2432"><a href="/archive/2016/www.gdi.de/gdi-das-unternehmen/kontakt.html">Kontakt</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+			<div class="container" id="mainContent">
+				<div class="innerWrap">
+					<div class="threeColSet row">
+						<div class="colleft col-md-2 col-sm-3">
+							<div class="contentElement">
+								<ul class="submenu">
+									<li id="mi124" class="active"><a href="/archive/2016/www.gdi.de/loesungen-fuer-kleine-unternehmen/auftrag-warenwirtschaft.html" title="Auftragsbearbeitung, Warenwirtschaft mit Faktura und CRM" class="Level1Item">Auftrag &amp; Warenwirtschaft</a>
+										<ul class="Level2">
+											<li id="mi2950"><a href="/archive/2016/www.gdi.de/loesungen-fuer-kleine-unternehmen/auftrag-warenwirtschaft/bline-mobil-pro.html" title="BLine mobil pro" class="Level2Item">BLine mobil pro</a></li>
+											<li id="mi2815"><a href="/archive/2016/www.gdi.de/loesungen-fuer-kleine-unternehmen/auftrag-warenwirtschaft/bline-mobil.html" title="BLine mobil" class="Level2Item">BLine mobil</a></li>
+										</ul>
+									</li>
+									<li id="mi125"><a href="/archive/2016/www.gdi.de/loesungen-fuer-kleine-unternehmen/finanzbuchhaltung.html" title="Finanzbuchhaltung - die Fibu für Kleinunternehmen" class="Level1Item">Finanzbuchhaltung</a></li>
+									<li id="mi126"><a href="/archive/2016/www.gdi.de/loesungen-fuer-kleine-unternehmen/anlagenbuchhaltung.html" title="Anlagenbuchhaltung für Ihre Abschreibungen" class="Level1Item">Anlagenbuchhaltung</a></li>
+									<li id="mi127"><a href="/archive/2016/www.gdi.de/loesungen-fuer-kleine-unternehmen/lohnabrechnung-baulohn.html" title="Lohn &amp; Gehalt - Lohnabrechnung für Kleinunternehmen" class="Level1Item">Lohnabrechnung / Baulohn</a></li>
+									<li id="mi128"><a href="/archive/2016/www.gdi.de/loesungen-fuer-kleine-unternehmen/personalzeiterfassung.html" title="Personalzeiterfassung mit und ohne Stempeluhr" class="Level1Item">Personalzeiterfassung</a></li>
+								</ul>
+							</div>
+							<div class="innerContentWrap"></div>
+						</div>
+						<div class="maincol col-md-10 col-sm-9">
+							<div class="row">
+								<div class="col-sm-9">
+									<div class="contentElement">
+										<div id="c7672" class="csc-default">
+											<div class="csc-header csc-header-n1">
+												<h2 class="csc-firstHeader">Auftragsbearbeitung, Warenwirtschaft, CRM</h2>
+											</div>
+											<p class="bodytext">Fordern Sie hier Ihr individuelles Infopaket an. Es informiert Sie umfassend über das Produkt und unsere Leistungen.</p>
+										</div>
+									</div>
+									<div class="contentElement">
+										<div id="c7673" class="csc-default">
+											<div class="csc-mailform">
+												<form action="/archive/2016/www.gdi.de/loesungen-fuer-kleine-unternehmen/auftrag-warenwirtschaft/warenwirtschaft-online-praesentation-anfordern.html" enctype="multipart/form-data" id="kontaktinfo" method="post">
+													<ol>
+														<li class="csc-form-2 tx_form-text csc-form-element csc-form-element-textline"><label for="field-2">Firma*</label> <input id="field-2" name="tx_form_kontaktinfo[firma]" type="text"></li>
+														<li class="csc-form-3 csc-form-element csc-form-element-select"><label for="field-3">Anrede</label> <select id="field-3" name="tx_form_kontaktinfo[anrede]"><option selected value="4">Herr</option><option value="5">Frau</option></select></li>
+														<li class="csc-form-6 tx_form-text csc-form-element csc-form-element-textline"><label for="field-6">Ansprechpartner</label> <input id="field-6" name="tx_form_kontaktinfo[ansprechpartner]" type="text"></li>
+														<li class="csc-form-7 tx_form-text csc-form-element csc-form-element-textline"><label for="field-7">Branche</label> <input id="field-7" name="tx_form_kontaktinfo[branche]" type="text"></li>
+														<li class="csc-form-8 csc-form-element csc-form-element-select"><label for="field-8">Mitarbeiterzahl</label> <select id="field-8" name="tx_form_kontaktinfo[mitarbeiterzahl]"><option selected value="9">Bitte wählen Sie aus</option><option value="10">1-5</option><option value="11">6-10</option><option value="12">11-20</option><option value="13">21-50</option><option value="14">51-100</option><option value="15">mehr als 100</option></select></li>
+														<li class="csc-form-16 tx_form-text csc-form-element csc-form-element-textline"><label for="field-16">Straße+Nr.</label> <input id="field-16" name="tx_form_kontaktinfo[strassenr]" type="text"></li>
+														<li class="csc-form-17 tx_form-text csc-form-element csc-form-element-textline"><label for="field-17">PLZ*</label> <input id="field-17" name="tx_form_kontaktinfo[plz]" type="text"></li>
+														<li class="csc-form-18 tx_form-text csc-form-element csc-form-element-textline"><label for="field-18">Ort*</label> <input id="field-18" name="tx_form_kontaktinfo[ort]" type="text"></li>
+														<li class="csc-form-19 tx_form-text csc-form-element csc-form-element-textline"><label for="field-19">E-Mail-Adresse*</label> <input id="field-19" name="tx_form_kontaktinfo[mail]" type="text"></li>
+														<li class="csc-form-20 tx_form-text csc-form-element csc-form-element-textline"><label for="field-20">Telefonnummer</label> <input id="field-20" name="tx_form_kontaktinfo[telefon]" type="text"></li>
+														<li class="csc-form-21 csc-form-element csc-form-element-header">
+															<h5>(Mit * gekennzeichnete Felder sind Pflichtangaben)</h5>
+														</li>
+														<li class="csc-form-22 tx_form-hidden csc-form-element csc-form-element-hidden"><input name="tx_form_kontaktinfo[hidden]" type="hidden"></li>
+														<li class="csc-form-23 tx_form-hidden csc-form-element csc-form-element-hidden"><input name="tx_form_kontaktinfo[hidden]" type="hidden"></li>
+														<li class="csc-form-24 csc-form-element csc-form-element-header">
+															<h4>Wir interessieren uns auch für:</h4>
+														</li>
+														<li class="csc-form-25 tx_form-checkbox csc-form-element csc-form-element-checkbox"><label for="field-25">Finanzbuchhaltung</label> <input id="field-25" name="tx_form_kontaktinfo[Finanzbuchhaltung][]" type="checkbox" value="25"></li>
+														<li class="csc-form-26 tx_form-checkbox csc-form-element csc-form-element-checkbox"><label for="field-26">Lohn &amp; Gehalt</label> <input id="field-26" name="tx_form_kontaktinfo[Lohn][]" type="checkbox" value="26"></li>
+														<li class="csc-form-27 tx_form-checkbox csc-form-element csc-form-element-checkbox"><label for="field-27">Baulohn</label> <input id="field-27" name="tx_form_kontaktinfo[baulohn][]" type="checkbox" value="27"></li>
+														<li class="csc-form-28 tx_form-checkbox csc-form-element csc-form-element-checkbox"><label for="field-28">Personalzeiterfassung</label> <input id="field-28" name="tx_form_kontaktinfo[Personalzeiterfassung][]" type="checkbox" value="28"></li>
+														<li class="csc-form-29 tx_form-checkbox csc-form-element csc-form-element-checkbox"><label for="field-29">Kostenrechnung</label> <input id="field-29" name="tx_form_kontaktinfo[Kostenrechnung][]" type="checkbox" value="29"></li>
+														<li class="csc-form-30 tx_form-hidden csc-form-element csc-form-element-hidden"><input name="tx_form_kontaktinfo[hidden]" type="hidden"></li>
+														<li class="csc-form-31 tx_form-checkbox csc-form-element csc-form-element-checkbox"><label for="field-31">Wir wünschen zudem eine kostenfreie Online-Präsentation</label> <input id="field-31" name="tx_form_kontaktinfo[online][]" type="checkbox" value="31"></li>
+														<li class="csc-form-32 tx_form-checkbox csc-form-element csc-form-element-checkbox"><label for="field-32">Bitte nennen Sie uns einen GDI-Fachhandelspartner in unserer Nähe.</label> <input id="field-32" name="tx_form_kontaktinfo[fachhandel][]" type="checkbox" value="32"></li>
+														<li class="csc-form-33 tx_form-hidden csc-form-element csc-form-element-hidden"><input name="tx_form_kontaktinfo[hidden]" type="hidden"></li>
+														<li class="csc-form-34 csc-form-element csc-form-element-textarea"><label for="field-34">Weitere Nachricht</label> 
+															<textarea cols="40" id="field-34" name="tx_form_kontaktinfo[nachricht]" rows="5"></textarea>
+														</li>
+														<li class="csc-form-35 tx_form-submit csc-form-element csc-form-element-submit"><input id="field-35" name="tx_form_kontaktinfo[27]" type="submit" value="Anforderung versenden"></li>
+													</ol>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="colright">
+										<div id="c7630" class="csc-default">
+											<div class="videoContainer"><img src="/archive/2016/www.gdi.de/uploads/tx_templavoila/bline_20.jpg" border="0" class="videoPreview" alt="">
+												<h4 class="videoPreviewTitle"><a class="videoPreview" style="cursor:pointer;">Video GDI Business-Line</a></h4>
+												<div class="overlay" style="background-color:#000">
+													<h6 class="videoHeadline">GDI Business-Line</h6>
+													<a href="/archive/2016/www.gdi.de/fileadmin/Inhalte/gdi/Videos/01BusinessLine.flv" id="player"> </a> 
+													<div class="close"><img src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/images/close.png" border="0" alt=""></div>
+												</div>
+											</div>
+										</div>
+										<div class="divider">
+											<hr>
+										</div>
+										<div id="c7144" class="csc-default">
+											<div class="csc-textpic csc-textpic-intext-right">
+												<div class="csc-textpic-imagewrap csc-textpic-single-image"><a href="/archive/2016/www.gdi.de/service/fachhandelspartner-finden.html"><img src="/archive/2016/www.gdi.de/typo3temp/pics/75d6975f93.jpg" width="220" height="115" border="0" alt=""></a></div>
+											</div>
+											<div class="csc-textpic-clear"></div>
+										</div>
+										<div id="c7421" class="csc-default">
+											<div class="csc-header csc-header-n4">
+												<h4><a href="/archive/2016/www.gdi.de/service/fachhandelspartner-finden.html">GDI-Partner in Ihrer Nähe</a></h4>
+											</div>
+											<div></div>
+											<div></div>
+										</div>
+										<div class="divider">
+											<hr>
+										</div>
+										<div id="c7399" class="csc-default">
+											<p class="bodytext"><a href="/archive/2016/www.gdi.de/loesungen-fuer-kleine-unternehmen/auftrag-warenwirtschaft/schoenberger-gefluegelhof-weber.html" title="Opens internal link in current window" class="Button">Praxisreport</a> </p>
+											<p class="bodytext"><br><a href="/archive/2016/www.gdi.de/loesungen-fuer-kleine-unternehmen/auftrag-warenwirtschaft/schoenberger-gefluegelhof-weber.html" title="Opens internal link in current window" class="internal-link"><br>Damit die Rechnung aufgeht</a></p>
+										</div>
+									</div>
+									<div class="clearer"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="clearer"></div>
+				</div>
+			</div>
+			<div class="container" id="footer">
+				<div class="innerWrap"></div>
+			</div>
+		</div>
+		<script src="/archive/2016/www.gdi.de/fileadmin/Template/js/main.js" type="text/javascript"></script>
+		<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://piwik.gdi.de/" : "http://piwik.gdi.de/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+		<script type="text/javascript">
+try {
+  var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+  piwikTracker.trackPageView();
+  piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script>
+		<noscript><img src="http://piwik.gdi.de/piwik.php?idsite=1" style="border:0" alt=""></noscript>
+		<script type="text/javascript">
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-29081996-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+</script>
+		<script src="/archive/2016/www.gdi.de/typo3conf/ext/cl_jquery_fancybox/fancybox2/jquery.mousewheel-3.0.6.pack.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/typo3conf/ext/cl_jquery_fancybox/fancybox2/jquery.fancybox.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/fileadmin/Template/js/fancybox/jquery.fancybox.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/js/dcn.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/typo3temp/javascript_bac279cc4a.js" type="text/javascript"></script>
+	</body>
+</html>

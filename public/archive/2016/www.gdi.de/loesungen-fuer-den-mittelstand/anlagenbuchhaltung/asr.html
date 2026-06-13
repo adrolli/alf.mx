@@ -1,0 +1,250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--?xml version="1.0" encoding="utf-8"?--><html xml:lang="de" lang="de" xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<!--
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2012 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.org/ and http://typo3.org/
+-->
+		<base href="/archive/2016/www.gdi.de/index.html">
+		<title>GDI Software: ASR</title>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700" media="all">
+		<link rel="stylesheet" type="text/css" href="/archive/2016/www.gdi.de/typo3temp/stylesheet_58722e1d68.css" media="all">
+		<link rel="stylesheet" type="text/css" href="/archive/2016/www.gdi.de/fileadmin/templates/gdi/bootstrap.min.css" media="all">
+		<link rel="stylesheet" type="text/css" href="/archive/2016/www.gdi.de/fileadmin/Template/js/fancybox/jquery.fancybox.css" media="all">
+		<script src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/js/jquery/1.11.2/jquery.min.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/js/jquery/1.11.2/jquery-ui.min.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/js/jquery/flowplayer.min.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/js/jquery/jquerytools.expose.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/js/bootstrap.min.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/typo3temp/javascript_ebd9c81938.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="/archive/2016/www.gdi.de/fileadmin/Template/css/reset.css">
+		<link rel="stylesheet" href="/archive/2016/www.gdi.de/fileadmin/Template/css/screen.css">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<link rel="schema.dc" href="http://purl.org/metadata/dublin_core_elements">
+		<link rel="shortcut icon" type="image/x-icon" href="/archive/2016/www.gdi.de/fileadmin/bilder/favicon.ico">
+		<script type="text/javascript">
+//<![CDATA[
+// js for all render methods
+function searchboxFocus(searchbox) {
+	if(searchbox.value == "Suchbegriff") {
+		searchbox.value = "";
+	}
+}
+
+function resetCheckboxes(filter) {
+	allLi = document.getElementsByName("optionCheckBox" + filter);
+	allCb = new Array();
+	for(i = 0; i < allLi.length; i++) {
+		allCb[i] = allLi[i].getElementsByTagName("input");
+	}
+	for(i = 0; i < allCb.length; i++) {
+		allCb[i][0].checked = false;
+	}
+}
+
+function enableCheckboxes(filter) {
+	var lis = document.getElementsByTagName("LI");
+	//alert(lis.count());
+	var allCb = new Array();
+	var allCbChecked = true;
+	var count = 0;
+	var optionClass = new Array();
+	for(var i = 0; i < lis.length; i++) {
+		if (optionClasses = lis[i].getAttribute("class", 1)) {
+			optionClassesArray = optionClasses.split(" ");
+			//alert(optionClasses);
+			if(optionClassesArray[1] == "optionCheckBox" + filter) {
+				allCb[count] = lis[i].getElementsByTagName("input")[0];
+				count++;
+			}
+		}
+	}
+	for(i = 0; i < allCb.length; i++) {
+		if(!allCb[i].checked) {
+			allCbChecked = false;
+		}
+	}
+	if(allCbChecked) {
+		for(i = 0; i < allCb.length; i++) {
+			allCb[i].checked = false;
+		}
+	} else {
+		for(i = 0; i < allCb.length; i++) {
+			allCb[i].checked = true;
+		}
+	}
+}
+//]]>
+</script>
+	</head>
+	<body id="page_2399" class="parent_98 style3 lang_0">
+		<div class="pageWrap">
+			<div id="headline">
+				<div class="innerWrap">
+					<ul>
+						<li id="loginButton" class="disabled"><span class="loginbox">
+								<div class="tx-felogin-pi1">
+									<form action="/archive/2016/www.gdi.de/loesungen-fuer-den-mittelstand/anlagenbuchhaltung/asr.html" target="_top" method="post" onsubmit="; return true;"><input type="text" id="user" name="user" value="" placeholder="BENUTZER"><input type="password" id="pass" name="pass" value="" placeholder="PASSWORD"><input type="hidden" name="logintype" value="login"><input type="hidden" name="pid" value="597,596"><input type="hidden" name="redirect_url" value=""><input type="hidden" name="tx_felogin_pi1[noredirect]" value="0"><input type="submit" name="submit" value="Login">
+										<div class="messages">
+											<h3>Benutzeranmeldung</h3>
+											<div>Geben Sie Ihren Benutzernamen und Ihr Passwort ein, um sich an der Website anzumelden:</div>
+										</div>
+									</form>
+								</div>
+							</span><a href="/archive/2016/www.gdi.de/loesungen-fuer-den-mittelstand/anlagenbuchhaltung/asr.html">Login</a></li>
+						<li id="searchButton" class="disabled"><span class="searchBox">
+								<div id="top-searchBox">
+									<div id="c6907" class="csc-default">
+										<div class="tx-kesearch-pi1">
+											<form method="get" id="xajax_form_kesearch_pi1" name="xajax_form_kesearch_pi1" action="/archive/2016/www.gdi.de/index.php" class="static"><input type="hidden" name="id" value="181"><input type="text" id="ke_search_sword" name="tx_kesearch_pi1[sword]" value="Suchbegriff" onfocus=" searchboxFocus(this); "><input type="image" id="kesearch_submit" src="/archive/2016/www.gdi.de/typo3conf/ext/ke_search/res/img/kesearch_submit.png" alt="Finden" class="submit" onclick="document.getElementById('pagenumber').value=1; document.getElementById('xajax_form_kesearch_pi1').submit();"><input id="pagenumber" type="hidden" name="tx_kesearch_pi1[page]" value="1"><input id="resetFilters" type="hidden" name="tx_kesearch_pi1[resetFilters]" value="0"><input id="sortByField" type="hidden" name="tx_kesearch_pi1[sortByField]" value=""><input id="sortByDir" type="hidden" name="tx_kesearch_pi1[sortByDir]" value="">
+												<div id="kesearch_filters"></div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</span><a href="/archive/2016/www.gdi.de/loesungen-fuer-den-mittelstand/anlagenbuchhaltung/asr.html">Suche</a></li>
+						<li id="kontaktbutton"><img src="/archive/2016/www.gdi.de/fileadmin/Template/media/gdi_kontakt.png" alt="GDI Kontaktbutton">Kostenfrei Informieren <span class="number">0800 95 500 95</span></li>
+					</ul>
+					<div class="clearer"></div>
+				</div>
+			</div>
+			<div class="container" id="logorow">
+				<div class="innerWrap">
+					<div class="logo">
+						<h1><a href="/archive/2016/www.gdi.de/index.html" title="GDI mbH - Startseite"><img src="/archive/2016/www.gdi.de/fileadmin/Template/media/gdi_logo.png" alt="GDI mbH - Logo"></a></h1>
+					</div>
+					<div class="clearer"></div>
+				</div>
+			</div>
+			<div class="container" id="mainnavi">
+				<div class="innerWrap">
+					<nav class="navbar navbar-default">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-gdi-navbar-collapse" aria-expanded="false"><span class="sr-only">Navigation ein-/ausblenden</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+							<a href="/archive/2016/www.gdi.de/loesungen-fuer-den-mittelstand/anlagenbuchhaltung/asr.html" class="navbar-brand hidden-lg hidden-md hidden-sm" data-toggle="collapse" data-target="#bs-gdi-navbar-collapse" aria-expanded="false">Navigation</a> </div>
+						<div class="collapse navbar-collapse" id="bs-gdi-navbar-collapse">
+							<ul class="nav navbar-nav">
+								<li id="mi89"><a href="/archive/2016/www.gdi.de/startseite.html" title="ERP | CRM | Finanzbuchhaltung | Lohnabrechnung | Personalzeiterfassung | Anlagenbuchhaltung | Kostenrechnung">Startseite</a></li>
+								<li id="mi90" class="active"><a href="/archive/2016/www.gdi.de/loesungen-fuer-den-mittelstand.html" title="ERP Software für den Mittelstand">Für mittlere Unternehmen</a></li>
+								<li id="mi91"><a href="/archive/2016/www.gdi.de/loesungen-fuer-kleine-unternehmen.html" title="Bürosoftware für kleine Unternehmen">Für kleine Unternehmen</a></li>
+								<li id="mi92"><a href="/archive/2016/www.gdi.de/gdi-das-unternehmen.html" title="GDI - das Unternehmen">GDI</a></li>
+								<li id="mi93"><a href="/archive/2016/www.gdi.de/service.html" title="Service ist unser Programm">Service</a></li>
+								<li id="mi1856"><a href="/archive/2016/www.gdi.de/fachhandelsportal.html">Fachhandelsportal</a></li>
+								<li id="mi94"><a href="/archive/2016/www.gdi.de/partner.html">Partner</a></li>
+								<li id="mi2432"><a href="/archive/2016/www.gdi.de/gdi-das-unternehmen/kontakt.html">Kontakt</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+			<div class="container" id="mainContent">
+				<div class="innerWrap">
+					<div class="threeColSet row">
+						<div class="colleft col-md-2 col-sm-3">
+							<div class="contentElement">
+								<ul class="submenu">
+									<li id="mi96"><a href="/archive/2016/www.gdi.de/loesungen-fuer-den-mittelstand/warenwirtschaft.html" title="Auftragsbearbeitung, Warenwirtschaft, CRM" class="Level1Item">Warenwirtschaft</a></li>
+									<li id="mi97"><a href="/archive/2016/www.gdi.de/loesungen-fuer-den-mittelstand/finanzbuchhaltung.html" title="Finanzbuchhaltung, Directbanking, Mahnwesen, Rechnungswesen" class="Level1Item">Finanzbuchhaltung</a></li>
+									<li id="mi101"><a href="/archive/2016/www.gdi.de/loesungen-fuer-den-mittelstand/kostenrechnung.html" title="Kostenrechnung - die Software zur Kostenanalyse" class="Level1Item">Kostenrechnung</a></li>
+									<li id="mi98" class="active"><a href="/archive/2016/www.gdi.de/loesungen-fuer-den-mittelstand/anlagenbuchhaltung.html" title="Anlagenbuchhaltung für den Mittelstand" class="Level1Item">Anlagenbuchhaltung</a>
+										<ul class="Level2">
+											<li id="mi2383"><a href="/archive/2016/www.gdi.de/loesungen-fuer-den-mittelstand/anlagenbuchhaltung/wichtige-funktionen.html" title="Wichtige Funktionen" class="Level2Item">Wichtige Funktionen</a></li>
+											<li id="mi112"><a href="/archive/2016/www.gdi.de/loesungen-fuer-den-mittelstand/anlagenbuchhaltung/fakten.html" title="Alle Features der GDI Anlagenbuchhaltung in der Übersicht" class="Level2Item">Fakten</a></li>
+											<li id="mi1742"><a href="/archive/2016/www.gdi.de/loesungen-fuer-den-mittelstand/anlagenbuchhaltung/pivot-auswertungen.html" class="Level2Item">Pivot-Auswertungen</a></li>
+										</ul>
+									</li>
+									<li id="mi99"><a href="/archive/2016/www.gdi.de/loesungen-fuer-den-mittelstand/lohnabrechnung.html" title="Lohnabrechnung, Gehaltsabrechnung, Meldungen" class="Level1Item">Lohnabrechnung</a></li>
+									<li id="mi100"><a href="/archive/2016/www.gdi.de/loesungen-fuer-den-mittelstand/personalzeiterfassung.html" title="Personalzeiterfassung - die Software zur Zeiterfassung" class="Level1Item">Personalzeiterfassung</a></li>
+									<li id="mi2726"><a href="/archive/2016/www.gdi.de/loesungen-fuer-den-mittelstand/partnerloesungen.html" class="Level1Item">Partnerlösungen</a></li>
+								</ul>
+							</div>
+							<div class="innerContentWrap"></div>
+						</div>
+						<div class="maincol col-md-10 col-sm-9">
+							<div class="row">
+								<div class="col-sm-9">
+									<div class="contentElement">
+										<div id="c7042" class="csc-default">
+											<div class="csc-header csc-header-n1">
+												<h2 class="csc-firstHeader">ASR - Betriebe Chemnitz</h2>
+											</div>
+											<p class="bodytext"><span style="font-style: italic; ">Praxisreport Kurzfassung</span></p>
+											<p class="bodytext">Die Zeiten, wo die Müllabfuhr ein beschauliches städtisches Amt war, sind längst passé. Heute ist die Abfallwirtschaft ein modernes Gewerbe, das wie jeder Betrieb ein zeitgemäßes Marketing braucht. Samt Kosten-, Finanz- und Anlagemanagement. Bei einem 300 Mitarbeiter starken Großbetrieb mit Fuhrpark, Liegenschaften und Versorgungsnetzen ergeben sich enorme Anlagewerte, die einer optimalen Verwaltung bedürfen. Und manchmal auch nach etwas ungewöhnlichen Kriterien bewertet und abgerechnet werden müssen.</p>
+											<p class="bodytext">"Im kaufmännischen Bereich sorgen wir mit neun voll ausgelasteten Mitarbeiterinnen dafür, dass alles läuft; zudem erledigen wir die Buchhaltung für weitere städtische Eigenbetriebe mit, so dass wir insgesamt fünf Mandanten haben. Einschließlich dem Controller haben fünfzehn Menschen Zugriff auf unsere Software."</p>
+											<p class="bodytext">Diese Software heißt seit 1994 GDI. Ute Muthmann erinnert sich sogar noch an das Datum, denn seither hat sich vieles in ihrer Arbeit spürbar erleichtert. So richtig schätzen gelernt habe sie das erst, als die ASR zwischenzeitlich wegen einer Fusion für drei Jahre eine andere Software benutzen musste. "Das war, als sollten wir plötzlich mit dem Faustkeil arbeiten. Wir waren voller Glück, als wir 2003 wieder zu unserer GDI Software zurückkehren durften." Die hatte man seinerzeit auf einer Messe entdeckt und gleich engen Kontakt zum GDI-Fachhandelspartner bekommen. "Der hat ja damals auch gerade seine Existenz hier aufgebaut und wir sind praktisch miteinander gewachsen." Der Service durch den persönlichen Betreuer sei nach wie vor Spitze, der Umgang geradezu "herzlich".</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="colright">
+										<div id="c7041" class="csc-default">
+											<div class="csc-textpic csc-textpic-center csc-textpic-above">
+												<div class="csc-textpic-imagewrap csc-textpic-single-image" style="width:220px;"><a href="/archive/2016/www.gdi.de/fileadmin/Inhalte/gdi/Dateien/Referenzen/ASR_57609_Report-Kore-12.pdf" target="_blank"><img src="/archive/2016/www.gdi.de/uploads/pics/asr_chemnitz.png" width="220" height="107" border="0" alt=""></a></div>
+												<div class="csc-textpic-text"></div>
+											</div>
+											<div class="csc-textpic-clear"></div>
+										</div>
+										<div id="c7933" class="csc-default">
+											<div class="csc-header csc-header-n2">
+												<h4><a href="/archive/2016/www.gdi.de/fileadmin/Inhalte/gdi/Dateien/Referenzen/ASR_57609_Report-Kore-12.pdf" target="_blank">Praxisreport Langfassung</a></h4>
+											</div>
+										</div>
+										<div class="divider">
+											<hr>
+										</div>
+										<div id="c7162" class="csc-default">
+											<div class="csc-header csc-header-n4">
+												<h4><a href="/archive/2016/www.gdi.de/gdi-das-unternehmen/referenzen/anlagenbuchhaltung.html">Weitere Referenzen</a></h4>
+											</div>
+										</div>
+									</div>
+									<div class="clearer"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="clearer"></div>
+				</div>
+			</div>
+			<div class="container" id="footer">
+				<div class="innerWrap"></div>
+			</div>
+		</div>
+		<script src="/archive/2016/www.gdi.de/fileadmin/Template/js/main.js" type="text/javascript"></script>
+		<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://piwik.gdi.de/" : "http://piwik.gdi.de/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+		<script type="text/javascript">
+try {
+  var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
+  piwikTracker.trackPageView();
+  piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script>
+		<noscript><img src="http://piwik.gdi.de/piwik.php?idsite=1" style="border:0" alt=""></noscript>
+		<script type="text/javascript">
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-29081996-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+</script>
+		<script src="/archive/2016/www.gdi.de/typo3conf/ext/cl_jquery_fancybox/fancybox2/jquery.mousewheel-3.0.6.pack.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/typo3conf/ext/cl_jquery_fancybox/fancybox2/jquery.fancybox.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/fileadmin/Template/js/fancybox/jquery.fancybox.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/fileadmin/templates/gdi/js/dcn.js" type="text/javascript"></script>
+		<script src="/archive/2016/www.gdi.de/typo3temp/javascript_bac279cc4a.js" type="text/javascript"></script>
+	</body>
+</html>

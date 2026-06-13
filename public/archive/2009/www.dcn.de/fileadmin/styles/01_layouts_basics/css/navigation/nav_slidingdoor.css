@@ -1,0 +1,159 @@
+#nav_main
+{
+/*(en) This image is mainly transparent
+(de) Dieses Bild ist grÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¶ÃƒÆ’Ã†â€™Ãƒâ€¦Ã‚Â¸tenteils transparent*/
+	/*[empty]background:;*/
+	float: left;
+	width: 100%;
+}
+#nav_main UL
+{
+	/*[disabled]line-height:1em;*/
+	list-style: none;
+	margin: 0;
+	padding: 0px 0 0 10px;
+	white-space: nowrap;
+}
+#nav_main LI
+{
+	float: left;
+	margin: 0;
+	padding: 0 0 0 3px;
+}
+#nav_main A, #nav_main STRONG
+{
+	color: #667;
+	display: block;
+	font-weight: normal;
+	padding: 5px 11px 3px 8px;
+	text-decoration: none;
+	text-transform: none;
+	width: auto;
+	width: 0.1em;
+}
+#nav_main>UL A, #nav_main>UL STRONG
+{
+	width: auto;
+}
+#nav_main UL LI:focus, #nav_main UL LI:hover, #nav_main UL LI:active
+{
+	background-position: 0 -150px;
+}
+#nav_main LI:focus A, #nav_main LI:hover A, #nav_main LI:active A
+{
+	background-position: 100% -150px;
+}
+#nav_main A:focus, #nav_main A:hover, #nav_main A:active
+{
+	background-color: transparent;
+	color: #2C2F66;
+}
+#nav_main #current
+{
+	border-right: 1px solid #555887;
+	border-left: 1px solid #555887;
+	/*[disabled]background-color:#ABBBCA;*/
+	height: 28px;
+	border: 0;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+#nav_main #current A, #nav_main #current STRONG
+{
+	color: #334;
+	font-weight: normal;
+	padding-bottom: 4px;
+	padding-top: 5px;
+}
+/****************************/
+.tx-rgtabs-pi1
+{
+	background: transparent;
+}
+/*wraps the hole tab*/
+.rgtabs-wrapper
+{
+	/*[disabled]padding:10px 0px;*/
+	/*[disabled]border:1px solid #CCC;*/
+	background: #FFF url(/archive/2009/www.dcn.de/fileadmin/styles/01_layouts_basics/css/images/sliding_door/round/dcntabbg.gif) repeat-x;
+	overflow: hidden;
+	width: 872px !important; /*[e]872px*/
+	clear: both;
+}
+/*Tab-Menu ul*/
+.rgtabs-menu
+{
+	margin: 0;
+	padding: 0;
+	height: auto;
+	width: auto;
+	background: transparent;
+	list-style: none none;
+	height: 1%;
+	width: 900px !important; /*[e]900px*/
+}
+/*Tab-Menu li*/
+.rgtabs-menu LI, #left .rgtabs-menu LI
+{
+	list-style-type: none;
+	list-style: none none !important; /*[e]none none*/
+	background: url(/archive/2009/www.dcn.de/fileadmin/styles/01_layouts_basics/css/images/sliding_door/round/rgtabs-left.gif) no-repeat left 0px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	width: 181px !important; /*[e]181px*/
+}
+.rgtabs-menu LI:hover, #left .rgtabs-menu LI:hover
+{
+	background: url(/archive/2009/www.dcn.de/fileadmin/styles/01_layouts_basics/css/images/sliding_door/round/rgtabs-left_on.gif) no-repeat left 0;
+}
+/*Tab-Menu li.a*/
+.rgtabs-menu LI A, #left .rgtabs-menu LI A
+{
+	background: url(/archive/2009/www.dcn.de/fileadmin/styles/01_layouts_basics/css/images/sliding_door/round/rgtabs-right.gif) no-repeat right 0px;
+	display: block;
+	/*[disabled]float:left;*/
+	height: auto;
+	line-height: 24px;
+	color: #545454;
+	padding: 2px 12px 0 14px;
+	text-decoration: none;
+	outline: 0;
+	text-align: center;
+}
+.rgtabs-menu LI A:hover, #left .rgtabs-menu LI A:hover
+{
+	background: url(/archive/2009/www.dcn.de/fileadmin/styles/01_layouts_basics/css/images/sliding_door/round/rgtabs-right_on.gif) no-repeat right 0px;
+}
+/*Selected Tab*/
+#left .rgtabs-menu LI.rgtabs-selected, .rgtabs-menu LI.rgtabs-selected
+{
+	background: url(/archive/2009/www.dcn.de/fileadmin/styles/01_layouts_basics/css/images/sliding_door/round/rgtabs-left_on.gif) no-repeat top left;
+}
+#left .rgtabs-menu LI.rgtabs-selected A, .rgtabs-menu LI.rgtabs-selected A
+{
+	background: url(/archive/2009/www.dcn.de/fileadmin/styles/01_layouts_basics/css/images/sliding_door/round/rgtabs-right_on.gif) no-repeat top right;
+	color: #333;
+}
+
+/*
+     FILE ARCHIVED ON 19:36:12 Dec 23, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:20:36 Jun 12, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.474
+  exclusion.robots: 0.048
+  exclusion.robots.policy: 0.04
+  esindex: 0.008
+  cdx.remote: 7.184
+  LoadShardBlock: 130.057 (3)
+  PetaboxLoader3.datanode: 1000.672 (4)
+  PetaboxLoader3.resolve: 69.349 (3)
+  load_resource: 1736.118
+*/

@@ -1,0 +1,82 @@
+/* --------------------------------------------------- */
+/* -------------------- CSS RESET -------------------- */
+/* --------------------------------------------------- */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+  margin:0;
+  padding:0;
+  border:0;
+  font-size:100%;
+  font:inherit;
+  vertical-align:baseline
+}
+
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+  display:block
+}
+
+body {
+  line-height:1
+}
+
+div, span {
+  outline: none !important;
+}
+
+ol,ul {
+  list-style:none
+}
+
+blockquote,q {
+  quotes:none
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+  content:'';
+  content:none
+}
+
+table {
+  border-collapse:collapse;
+  border-spacing:0
+}
+
+:focus {
+  outline: 0;
+}
+
+textarea {
+  resize: none;
+}
+
+/*fieldset {
+  float: left;
+}*/
+
+a {
+  text-decoration: none;
+}
+
+a img {
+  border: 0px;
+}
+
+
+/* --------------------------------------------------- */
+/* -------------------- CSS RESET -------------------- */
+/* --------------------------------------------------- */
+/*
+     FILE ARCHIVED ON 17:55:46 Apr 24, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 23:10:00 Jun 12, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  capture_cache.get: 0.727
+  load_resource: 263.482 (2)
+  PetaboxLoader3.resolve: 100.149 (2)
+  PetaboxLoader3.datanode: 29.508 (2)
+*/

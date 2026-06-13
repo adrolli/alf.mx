@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>DCN Uploader</title>
+<style>
+FIELDSET {width: 400px;background-color: #f9f9f9; border: 1px solid #b3b3b3; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; text-align: left; padding: 10px; padding-top: 0px;}
+LEGEND   {background-color: #f0f0f0; border: 1px solid #b3b3b3; font: bold 13px Arial; padding: 2px;}
+.div1, .file_list {text-align: left; color: #484B50;}
+.div1 {width: 100%; padding: 10px;}
+.upload_input input {font: 12px Arial; border: 1px solid #636363; margin-top: 1px; width: 100%;}
+.file_list {width: 100%; border: 1px solid #434343; background-color: #ffffff;}
+.file_list input, .myForm {font: 12px Arial; border: 1px solid #636363; margin-top: 1px;}
+</style>
+</head>
+<body>
+<center>
+<br><br>
+<form name="F1Upload" enctype="multipart/form-data" action="/archive/2009/www.dcn.de/cgi-bin/upload.cgi" method="post" onsubmit="return StartUpload(this);">
+
+<fieldset>
+<legend>DCN Uploader</legend>
+<div id="slots" class="upload_input">
+<br><input name="file_0" type="file" onchange="checkExt(this)" size="40"><br>
+</div>
+<input type="button" id="x_add_slot" value="+1 Datei" class="myForm" onclick="addUploadSlot();"><br>&nbsp;<table border="0" width="100%" cellspacing="0" cellpadding="0" id="table1">
+	<tr>
+		<td><p><font size="2">Ihr 
+Passwort:</font></p></td>
+		<td> 
+		<input type="password" name="upload_password" size="35" class="myForm"></td>
+	</tr>
+	<tr>
+		<td>
+
+<font size="2">
+
+<script>document.write('<script src="' + document.F1Upload.action+'&mode=settings' + '" type="text/javascript"><\/script>');</script>
+
+
+Ihr Projekt: </font> </td>
+		<td> <input type="text" name="ext_folder" size="35" class="myForm"></td>
+	</tr>
+	<tr>
+		<td><font size="2">Ihre E-mail: </font> </td>
+		<td> 
+		<input type="text" name="email_notification" size="35" class="myForm"></td>
+	</tr>
+</table>
+
+<input type="checkbox" name="popup" id="popup" value="on" checked style="visibility:hidden">
+<br>
+
+<center><input type="submit" value="Transfer starten" class="myForm"></center>
+<br>
+
+</fieldset>
+
+<input type="hidden" name="css_name" value="">
+<input type="hidden" name="tmpl_name" value="pro1">
+</form>
+
+</center>
+
+<iframe src="/archive/2009/www.dcn.de/about:blank/index.html" name="upload" frameborder="0" style="width: 0px; height: 0px;"></iframe>
+<script>document.write('<script src="' + document.F1Upload.action+'&mode=settings' + '" type="text/javascript"><\/script>');</script>
+<script src="/archive/2009/www.dcn.de/xupload.js"></script>
+
+</body>
+</html>

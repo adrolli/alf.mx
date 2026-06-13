@@ -1,0 +1,39 @@
+@import url(/archive/2009/www.dcn.de/fileadmin/styles/01_layouts_basics/css/layout_3col_standard.css);
+HTML, BODY
+{
+	background-color: #FFFFFF;
+	background-image: none;
+	font-family: arial, verdana;
+	font-size: 12px !important;
+	margin: 0px;
+	padding: 0px;
+}
+#speedtest_contents
+{
+	text-align: center;
+}
+A.start_test
+{
+	text-decoration: none;
+}
+
+/*
+     FILE ARCHIVED ON 23:03:48 Dec 23, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:51:50 Jun 12, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.77
+  exclusion.robots: 0.065
+  exclusion.robots.policy: 0.052
+  esindex: 0.009
+  cdx.remote: 181.417
+  LoadShardBlock: 195.165 (3)
+  PetaboxLoader3.datanode: 89.86 (4)
+  PetaboxLoader3.resolve: 252.195 (2)
+  load_resource: 191.931
+*/

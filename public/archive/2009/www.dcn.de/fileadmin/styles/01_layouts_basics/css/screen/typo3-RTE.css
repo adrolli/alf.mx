@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* ######################################################################################################
+** # "Yet Another Multicolum Layout" (c) by Dirk Jesse (http://www.yaml.de) #############################
+** # "YAML for TYPO3" (c) by Dieter Bunkerd (http://yaml.t3net.de) ######################################
+** ######################################################################################################
+**
+**  Datei       : typo3-RTE.css
+**  Funktion    : Formatierung der Inhalte im RTE, wird in den layout*.css files importiert.
+**  Checked with http://jigsaw.w3.org/css-validator/ 13.8.07 - DB
+*/
+/* Avoid borders around images in the RTE */
+img {border:0;}
+/* #############################
+** ### classesParagraph ########
+** #############################
+*/
+p.csc-frame-frame1 {background:#EDEBF1; border:1px solid #000; padding:5px;}
+p.csc-frame-frame2 {background:#F5FFAA; border:1px solid #000; padding:5px;}
+p.align-center {text-align:center;}
+p.align-left {text-align:left;}
+p.align-right {text-align:right;}
+p.align-justify {text-align:justify;}
+p.indent {margin-left:1.5em;}
+table.contenttable {font-size:0.8em;}
+p sup, p sub {font-size:0.7em;}
+p.code {font-family:"Courier New", Courier, monospace; font-size:0.9em; padding:1em; background:#f0f0f4; border:1px #ccd solid;}
+p.note {background:#dfd; padding: 1em; border-bottom: 1px #bdb dotted;}
+p.important {background:#ffd; padding:1em; border-bottom:1px #ddb dotted;}
+p.warning {background:#fdd; padding:1em; border-bottom:1px #dbb dotted;}
+p.info {background:#f7f7ef url(/archive/2009/www.dcn.de/fileadmin/styles/01_layouts_basics/img/icons/ausrufez-blau.gif) 10px 10px no-repeat; padding:1.5em 1.5em 1.5em 4em;}
+p.question {background:#A43F15 url(/archive/2009/www.dcn.de/fileadmin/styles/01_layouts_basics/img/icons/fragez-blau.gif) 10px 10px no-repeat; color:#fff; padding:1.5em 1.5em 1.5em 4em;}
+p.stop {background:#fff url(/archive/2009/www.dcn.de/fileadmin/styles/01_layouts_basics/img/icons/stop.gif) 10px 10px no-repeat; padding:1.5em 1.5em 1.5em 4em; border:1px solid #a43f15;}
+p.citation {background:#fff url(/archive/2009/www.dcn.de/fileadmin/styles/01_layouts_basics/img/icons/sprechblase.gif) 10px 10px no-repeat; color:#187ba2; padding:1.5em 1.5em 1.5em 4em; border:1px solid #187ba2; font-style:italic;}
+/* #############################
+** ### classesCharacter ########
+** #############################
+*/
+span.underline {text-decoration:underline;}
+span.strikethrough {text-decoration:line-through;}
+span.mono {font-family:"Courier New", Courier, monospace; padding:0 0.3em 0 0.3em; background:#f0f0f4; border:1px #ccd solid;}
+span.file {font-family:"Courier New", Courier, monospace;	padding:0 0 0 14px; color:#000088; background:transparent url(/archive/2009/www.dcn.de/fileadmin/styles/01_layouts_basics/img/icons/file.gif) no-repeat left;}
+span.directory {font-family:"Courier New", Courier, monospace; padding:0 0 0 15px; color:#000088; background:transparent url(/archive/2009/www.dcn.de/fileadmin/styles/01_layouts_basics/img/icons/dir.gif) no-repeat left;}
+span.infoHeadline {display:block; color:#187ba2; text-transform:uppercase; font-weight:bold; border-bottom:2px solid white; padding-bottom:0.5em; margin-bottom:-1em; margin-left:-4em; padding-left:4em; margin-right:-1.5em;}
+span.questionHeadline {display:block; color:#fff; text-transform:uppercase; font-weight:bold; border-bottom:2px solid white; padding-bottom:0.5em; margin-bottom:-1em; margin-left:-4em; padding-left:4em; margin-right:-1.5em;}
+span.stopHeadline {display:block; color:#A43F15; text-transform:uppercase; font-weight:bold; padding-bottom:0.5em; margin-bottom:-1em;}
+/* #############################
+** ### TagFreeClasses ##########
+** #############################
+*/
+
+/*
+     FILE ARCHIVED ON 01:41:49 Mar 04, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:20:46 Jun 12, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.85
+  exclusion.robots: 0.099
+  exclusion.robots.policy: 0.083
+  esindex: 0.016
+  cdx.remote: 24.686
+  LoadShardBlock: 141.384 (3)
+  PetaboxLoader3.datanode: 85.818 (4)
+  PetaboxLoader3.resolve: 128.567 (3)
+  load_resource: 130.477
+*/
